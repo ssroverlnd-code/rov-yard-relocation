@@ -40,6 +40,8 @@ updated: 2026-10-19
 | R16 | **Incomplete inventory — items missed** | 3 | 4 | **12** | Zone-by-zone systematic count, secondary verification pass, spot-checks at new yard | Inventory Lead |
 | R17 | **IT equipment damage or data loss** | 2 | 4 | **8** | Anti-static packaging, backup all data before disconnect, IT Lead supervision | IT Lead |
 | R18 | **Old landlord disputes condition at handover** | 2 | 3 | **6** | Move-in walkthrough photos (already done Stage 1.2), written condition report, deposit agreement | PMO Lead |
+| R19 | **Damage to ROV electronics during packing or transit** | 3 | 4 | **12** | Anti-static packaging, condition records before/after, insured transport, technical supervision | Technical / Yard Supervisor |
+| R20 | **Wrongful disposal of serviceable items** | 3 | 3 | **9** | Technical owner + Finance written approval before any disposal; condition confirmation required | Finance & Administration |
 
 ---
 
@@ -49,9 +51,11 @@ updated: 2026-10-19
 |------|------|-------|-----------------|
 | 1 | R01 — Theft/loss of Class A items in transit | 20 | Finalise security escort contract, confirm sealed crate protocol |
 | 2 | R06 — Copper cable theft at old yard | 16 | Increase old yard security from Week 3, move Class A first |
-| 3 | R14 — Team injury during heavy lift | 10 | Confirm rigging contractor safety record, schedule safety briefing |
-| 4 | R16 — Incomplete inventory | 10 | Assign zone owners, start inventory Week 1, verify completeness |
-| 5 | R02 — Damage to heavy items | 12 | Require lift plan from contractor, pre-lift inspection checklist |
+| 3 | R02 — Damage to heavy items during lifting | 12 | Require lift plan from contractor, pre-lift inspection checklist |
+| 4 | R03 — Authority delays (JPJ, MPMT, MPPG) | 12 | Submit applications early (Week 2–3), follow up weekly |
+| 5 | R04 — New yard not ready when items arrive | 12 | Layout work starts Week 3, weekly readiness check, hold move if cage not ready |
+
+> Also scored 12: **R11** (new yard landlord delays handover), **R16** (incomplete inventory) and **R19** (damage to ROV electronics).
 
 ---
 

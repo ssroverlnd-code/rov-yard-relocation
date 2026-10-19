@@ -63,9 +63,9 @@ updated: 2026-10-19
 | **W3** | Contracts + New yard prep + Layout approval | Vendor contracts signed, authority applications submitted, new yard survey + layout approved, fence/cage/racking, furniture sort |
 | **W4** | Valuable items move + Heavy begins | **Gate 3 passed** → Class A convoy with security escort, heavy items begin (crane lifts), furniture sale |
 | **W5** | Heavy + Office equipment | Heavy items continue, IT + cabinets move, IT reinstall, consumables packing |
-| **W6** | Heavy finish + Loose items | **Gate 5 passed** → complete major equipment, consumables transport, multiple vehicle runs |
+| **W6** | Heavy finish + Loose items | **Gate 6 passed** → complete major equipment, consumables transport, multiple vehicle runs |
 | **W7** | Loose items complete + Reconciliation | Final packing/transport, shelving, **inventory reconciliation**, furniture disposal deadline |
-| **W8** | Close-out + Handover | Full audit, old yard clean-up, **Gate 6 + Gate 7** → handover, closure report |
+| **W8** | Close-out + Handover | Full audit, old yard clean-up, **Gate 7 + Gate 8** → handover, closure report |
 
 ---
 
@@ -114,7 +114,7 @@ updated: 2026-10-19
 
 **Red adds:** 6 named vendor types (heavy haulage, movers, crane, security escort, scrap collector, e-waste recycler), 3 quotes each, vendor communication protocol (72h booking, 24h confirmation, day-before reminder), packing materials per item class.
 
-**🔒 Gate:** Vendor orders, disposal approvals, packing lists, shipment schedule ready.
+**🔒 Gate 4:** Vendor orders, disposal approvals, packing lists, shipment schedule ready.
 
 ### Stage 5 — High-Value & Sensitive Assets (W4–W5)
 
@@ -122,7 +122,7 @@ updated: 2026-10-19
 
 **Red adds:** Tamper-evident sealed crates, security escort convoy, direct route (no stops), 30-min checkpoint calls, dual-signature at loading, offload directly into secure cage, reconcile manifest at receipt.
 
-**🔒 Gate 4:** All high-value assets accounted for, received, secured, or exceptions escalated.
+**🔒 Gate 5:** All high-value assets accounted for, received, secured, or exceptions escalated.
 
 ### Stage 6 — Heavy & Oversized Equipment (W5–W6)
 
@@ -130,7 +130,7 @@ updated: 2026-10-19
 
 **Red adds:** Crane booking per lift day, JPJ oversized load permit if needed, police/authority notification, pre-marked placement zones at new yard, safety briefing every lift day, document damage/missing components.
 
-**🔒 Gate 5:** Major equipment delivered, inspected, safely positioned.
+**🔒 Gate 6:** Major equipment delivered, inspected, safely positioned.
 
 ### Stage 7 — Loose Items, Office Equipment & Records (W6–W7)
 
@@ -138,7 +138,7 @@ updated: 2026-10-19
 
 **Red adds:** Packing protocols (bins with dividers, tool rolls, anti-static wrap, secondary containment for chemicals), multiple vehicle runs, shelving by category at new yard, update inventory with location references.
 
-**🔒 Gate 6:** All retained items transferred and disposals documented.
+**🔒 Gate 7:** All retained items transferred and disposals documented.
 
 ### Stage 8 — Reconciliation, Clearance & Handover (W7–W8)
 
@@ -146,7 +146,7 @@ updated: 2026-10-19
 
 **Red adds:** Full physical audit (100% match required), commission new yard infrastructure, old yard final clean-up, handover to landlord with photos, close authority licences, lessons learned meeting, sign-off sheet.
 
-**🔒 Gate 7:** New yard accepted, old yard handed over, project closed.
+**🔒 Gate 8:** New yard accepted, old yard handed over, project closed.
 
 ---
 
@@ -184,26 +184,28 @@ A load is **not complete** until signed receipt against its manifest.
 
 | ID | Risk | L | I | Score | Mitigation | Owner |
 |----|------|---|---|-------|------------|-------|
-| R01 | Theft/loss of Class A in transit | 4 | 5 | **20** | Security escort, sealed crates, direct route, dual-signature, insurance | Security Lead |
-| R02 | Copper theft at old yard during move | 4 | 4 | **16** | Move Class A first, increase security until cleared | Security Lead |
-| R03 | Damage to heavy items during lifting | 3 | 4 | **12** | Professional rigging, lift plan, exclusion zones, pre-lift inspection | HSE / Rigging |
-| R04 | Authority delays (JPJ, MPMT, MPPG) | 3 | 4 | **12** | Submit early, follow up weekly, escalate | PM |
-| R05 | New yard not ready | 3 | 4 | **12** | Early survey, layout approval, weekly readiness check | PM / Operations |
-| R06 | Incomplete inventory | 3 | 4 | **12** | Zone-by-zone count, barcode tagging, secondary verification | Inventory Lead |
-| R07 | New yard landlord delays handover | 3 | 4 | **12** | Signed lease with penalty, weekly contact, contingency storage | PM |
-| R08 | Damage to ROV electronics | 3 | 4 | **12** | Anti-static packaging, condition records, insured transport | Technical |
-| R09 | Team injury during heavy lift | 2 | 5 | **10** | HSE Officer, PPE, exclusion zones, banksman, toolbox briefing | HSE |
-| R10 | Wrongful disposal | 3 | 3 | **9** | Technical + Finance written approvals, condition confirmation | Finance |
-| R11 | Undocumented items discovered | 3 | 3 | **9** | Buffer time, classify on the spot, escalate if high value | Inventory Lead |
-| R12 | Budget overrun | 3 | 3 | **9** | 10% contingency, 3 quotes per vendor, weekly cost tracking | Finance |
-| R13 | Road accident during transit | 2 | 4 | **8** | Experienced drivers, maintained vehicles, GPS, insurance | Logistics |
-| R14 | IT equipment damage / data loss | 2 | 4 | **8** | Anti-static packaging, backup before disconnect, IT Lead supervision | IT Lead |
-| R15 | Vendor no-show / breakdown | 2 | 3 | **6** | 2 backup vendors, penalty clauses, confirm 48h before | Logistics |
-| R16 | Furniture disposal takes too long | 3 | 2 | **6** | Start W3, engage scrap early, extend to W7 if needed | Operations |
-| R17 | Adverse weather delays heavy lifts | 2 | 3 | **6** | Monitor forecast, schedule on clear days, contingency dates | Rigging |
-| R18 | Insurance claim dispute | 2 | 3 | **6** | Photo before/after, item-level manifests, immediate reporting | PM |
-| R19 | Hazardous consumables spill | 2 | 3 | **6** | MSDS review, secondary containment, trained personnel | Warehouse |
-| R20 | Old landlord disputes condition | 2 | 3 | **6** | Move-in walkthrough photos, written condition report | PM |
+| R01 | Theft or loss of Class A items during transit | 4 | 5 | **20** | Security escort, sealed crates, direct route, dual-signature, insurance | Security Lead |
+| R06 | Copper cable theft at old yard during relocation | 4 | 4 | **16** | Move Class A first, increase security until cleared | Security Lead |
+| R02 | Damage to heavy items during lifting | 3 | 4 | **12** | Professional rigging, lift plan, exclusion zones, pre-lift inspection | HSE / Rigging |
+| R03 | Authority delays (JPJ, MPMT, MPPG) | 3 | 4 | **12** | Submit early, follow up weekly, escalate | PM |
+| R04 | New yard not ready when items arrive | 3 | 4 | **12** | Early survey, layout approval, weekly readiness check | PM / Operations |
+| R11 | New yard landlord delays handover | 3 | 4 | **12** | Signed lease with penalty, weekly contact, contingency storage | PM |
+| R16 | Incomplete inventory — items missed | 3 | 4 | **12** | Zone-by-zone count, barcode tagging, secondary verification | Inventory Lead |
+| R19 | Damage to ROV electronics | 3 | 4 | **12** | Anti-static packaging, condition records, insured transport | Technical |
+| R14 | Team member injury during heavy lift | 2 | 5 | **10** | HSE Officer, PPE, exclusion zones, banksman, toolbox briefing | HSE |
+| R15 | Budget overrun | 3 | 3 | **9** | 10% contingency, 3 quotes per vendor, weekly cost tracking | Finance |
+| R20 | Wrongful disposal | 3 | 3 | **9** | Technical + Finance written approvals, condition confirmation | Finance |
+| R08 | Undocumented items discovered during move | 3 | 3 | **9** | Buffer time, classify on the spot, escalate if high value | Inventory Lead |
+| R12 | Road accident or incident during transit | 2 | 4 | **8** | Experienced drivers, maintained vehicles, GPS, insurance | Logistics |
+| R17 | IT equipment damage or data loss | 2 | 4 | **8** | Anti-static packaging, backup before disconnect, IT Lead supervision | IT Lead |
+| R05 | Vendor no-show or vehicle breakdown | 2 | 3 | **6** | 2 backup vendors, penalty clauses, confirm 48h before | Logistics |
+| R07 | Furniture disposal takes longer than planned | 3 | 2 | **6** | Start W3, engage scrap early, extend to W7 if needed | Operations |
+| R09 | Adverse weather delays heavy lifts | 2 | 3 | **6** | Monitor forecast, schedule on clear days, contingency dates | Rigging |
+| R10 | Insurance claim dispute | 2 | 3 | **6** | Photo before/after, item-level manifests, immediate reporting | PM |
+| R13 | Hazardous consumables spill | 2 | 3 | **6** | MSDS review, secondary containment, trained personnel | Warehouse |
+| R18 | Old landlord disputes condition at handover | 2 | 3 | **6** | Move-in walkthrough photos, written condition report | PM |
+
+> **Risk IDs are canonical across the vault** — they match `06_Risk/risk_register.md` exactly. Two risks were added to the register for this plan: **R19** (damage to ROV electronics) and **R20** (wrongful disposal). Earlier drafts used a different ID order; use the register as the single source of truth.
 
 **Incident response:** Stop work → Report (15 min) → Document (photos, witnesses) → Assess → Escalate (injury/theft → Sponsor) → Insurance (24h) → Record
 
@@ -241,7 +243,7 @@ Six to seven weeks may be achievable if:
 
 ## 11. IMCA — Critical Discussion Item
 
-> **See ADR-001** in `11_ADR/` for the full discussion record and decision.
+> **See ADR-001** in `10_ADR/` for the full discussion record and decision.
 
 **Summary:** The initial plan flags that relocating an IMCA-approved ROV training establishment has regulatory and training approval implications that **must be checked separately before commencing affected activities at the new site.** This is a Week 1 critical path item — physical moves of training-related equipment should not commence until IMCA implications are confirmed.
 

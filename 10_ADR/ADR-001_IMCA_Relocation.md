@@ -85,9 +85,10 @@ Specific questions:
 
 ## 7. Related Documents
 
-- `10_Plans/Plan_1_Blue_Formal_Engineering_Transfer.md` — Section 6 (Authority screening)
-- `10_Plans/Plan_3_Hybrid_Governance_Plus_Execution.md` — Section 11 (IMCA discussion)
-- `06_Risk_Register/risk_register.md` — Add risk: IMCA delay blocks training equipment move
+- `09_Plan_Options/Plan_1_Blue.md` — Section 6 (Authority screening)
+- `09_Plan_Options/Plan_3_Hybrid.md` — Section 11 (IMCA discussion)
+- `06_Risk/risk_register.md` — risk R11 (landlord/regulatory restriction)
+- `10_ADR/README.md` — ADR index
 
 ---
 

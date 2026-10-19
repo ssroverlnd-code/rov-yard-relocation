@@ -8,7 +8,7 @@ updated: 2026-10-19
 # Plan 1 — Blue Team: Formal Engineering Asset Transfer
 
 **Approach:** Gate-controlled, compliance-first, sponsor-approved engineering project.  
-**Source:** `ROV_Yard_Relocation_Initial_Plan.md`  
+**Source:** `99_Archive/initial_plan_superseded.md` (initial plan — now archived)  
 **Duration:** 8 weeks (19 Oct – 14 Dec 2026), with acceleration to 6–7 weeks possible  
 **Status:** For team discussion and decision
 
@@ -118,7 +118,7 @@ Condition codes: **SVC** (Serviceable) / **REP** (Repairable) / **UNS** (Unservi
 | Scrap | Verify ownership, valuation, authorized disposal route |
 | Documentation | Prepare manifests, custody forms, disposal and shipment records |
 
-**Gate:** Vendor orders, disposal approvals, packing lists, shipment schedule ready.
+**Gate 4:** Vendor orders, disposal approvals, packing lists, shipment schedule ready.
 
 ### Stage 5 — High-Value & Sensitive Assets (W4–W5)
 
@@ -128,7 +128,7 @@ Condition codes: **SVC** (Serviceable) / **REP** (Repairable) / **UNS** (Unservi
 4. Supervise dispatch with authorized release and two-person verification.
 5. Verify receipt item by item; record discrepancies; lock in secure storage.
 
-**Gate 4:** All high-value assets accounted for, received, secured, or exceptions escalated.
+**Gate 5:** All high-value assets accounted for, received, secured, or exceptions escalated.
 
 ### Stage 6 — Heavy & Oversized Equipment (W5–W6)
 
@@ -140,7 +140,7 @@ Condition codes: **SVC** (Serviceable) / **REP** (Repairable) / **UNS** (Unservi
 6. Load, transport, unload under competent supervision and exclusion-zone controls.
 7. Inspect and position equipment; document damage or missing components.
 
-**Gate 5:** Major equipment delivered, inspected, safely positioned.
+**Gate 6:** Major equipment delivered, inspected, safely positioned.
 
 ### Stage 7 — Loose Items, Office Equipment & Records (W6–W7)
 
@@ -156,7 +156,7 @@ Condition codes: **SVC** (Serviceable) / **REP** (Repairable) / **UNS** (Unservi
 | Unidentified items | Quarantine for technical/ownership review |
 
 Sequential labels: `SSR-MT-[CLASS]-[SEQ]`. Maintain document custody and update destination-bin records.  
-**Gate 6:** All retained items transferred and disposals documented.
+**Gate 7:** All retained items transferred and disposals documented.
 
 ### Stage 8 — Reconciliation, Clearance & Handover (W7–W8)
 
@@ -171,7 +171,7 @@ Sequential labels: `SSR-MT-[CLASS]-[SEQ]`. Maintain document custody and update 
 | Close access and utilities | Handover confirmation |
 | Submit project closure report | Sponsor-approved report and completion certificate |
 
-**Gate 7:** New yard accepted, old yard handed over, project closed.
+**Gate 8:** New yard accepted, old yard handed over, project closed.
 
 ---
 

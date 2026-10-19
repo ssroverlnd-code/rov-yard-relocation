@@ -7,6 +7,8 @@ updated: 2026-10-19
 
 # ROV Yard Relocation — Master Moving Plan
 
+> **Relationship to the adopted plan.** This document is the **operational execution baseline** — the Red team's 10-stage structure with per-stage checklists. **Plan 3 — Hybrid** (`09_Plan_Options/Plan_3_Hybrid.md`) is the **adopted plan**: it applies Blue-team governance (8 gates, dedicated HSE, IMCA/DOSH/DOE compliance) over this execution detail. Where the two differ on **stage numbering and gates**, follow Plan 3; where they differ on **execution detail** (packing, convoy, lifting), this document is the reference.
+
 ## 8-Week Relocation Schedule (Pasir Gudang → Masjid Tanah)
 
 > **Rule of thumb:** Weeks 1–2 = Plan & Prepare · Weeks 2–3 = Approvals & Vendors · Weeks 3–7 = Execute Moves · Week 8 = Settle & Close

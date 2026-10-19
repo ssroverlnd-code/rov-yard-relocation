@@ -8,7 +8,7 @@ updated: 2026-10-19
 # Plan 2 — Red Team: Operational Execution Plan
 
 **Approach:** Stage-driven, execution-optimised, vendor-rich, detail-heavy operational plan.  
-**Source:** `01_Action_Plan/master_moving_plan.md` and supporting documents  
+**Source:** `01_Planning/master_moving_plan.md` and supporting documents  
 **Duration:** 8 weeks, sequential stages with controlled overlap  
 **Status:** For team discussion and decision
 

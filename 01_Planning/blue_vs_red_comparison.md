@@ -7,8 +7,8 @@ updated: 2026-10-19
 
 # Blue Team vs Red Team — Approach Comparison
 
-## Blue Team: Initial Plan (ROV_Yard_Relocation_Initial_Plan.md)
-## Red Team: Proposed Plan (01_Action_Plan/master_moving_plan.md)
+## Blue Team: Initial Plan (`99_Archive/initial_plan_superseded.md`)
+## Red Team: Proposed Plan (`01_Planning/master_moving_plan.md`)
 
 ---
 
@@ -184,10 +184,11 @@ Use **Red Team's quantified scoring** (L×I, 1–25) with **Blue Team's risk reg
 | G1: Team appointed + security implemented | End W1 | Blue |
 | G2: Inventory baseline + disposal candidates approved | End W2 | Blue |
 | G3: New yard readiness approved before dispatch | End W3 | Blue + Red (readiness checklist) |
-| G4: High-value assets accounted for + secured | End W4 | Blue + Red (manifest reconciliation) |
-| G5: Major equipment delivered + inspected | End W6 | Blue |
-| G6: All retained items transferred + disposals documented | End W7 | Blue |
-| G7: New yard accepted + old yard handed over + project closed | End W8 | Blue |
+| G4: Vendor orders, disposal approvals, packing lists + shipment schedule ready | End W4 | Red |
+| G5: High-value assets accounted for + secured | End W4–W5 | Blue + Red (manifest reconciliation) |
+| G6: Major equipment delivered + inspected | End W6 | Blue |
+| G7: All retained items transferred + disposals documented | End W7 | Blue |
+| G8: New yard accepted + old yard handed over + project closed | End W8 | Blue |
 
 ---
 

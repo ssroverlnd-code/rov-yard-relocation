@@ -1,8 +1,10 @@
 # ROV Yard Relocation — Pasir Gudang → Masjid Tanah
 
+> Start with the [[00_Index/README|Map of Content]] · visual map in `Program_Map.canvas`
+
 **Project Reference:** SSR-YARD-RELOC-2026  
 **Duration:** 8 weeks (19 Oct – 14 Dec 2026)  
-**Status:** Planning phase — team decision pending on plan selection  
+**Status:** Plan 3 (Hybrid) adopted — Blue-team governance over the Red-team execution baseline  
 **Owner:** SSRover L&D (SSRover Sdn Bhd)
 
 ---
@@ -49,7 +51,7 @@ Relocation of the ROV yard from **Pasir Gudang, Johor** to **Masjid Tanah, Melak
 ├── 05_Timeline/                # 8-week Gantt, milestones, critical path
 │   └── gantt_timeline.md
 │
-├── 06_Risk/                    # 18 scored risks, mitigations, incident response
+├── 06_Risk/                    # 20 scored risks, mitigations, incident response
 │   └── risk_register.md
 │
 ├── 07_Communication/           # Channels, meetings, reporting templates
@@ -58,7 +60,7 @@ Relocation of the ROV yard from **Pasir Gudang, Johor** to **Masjid Tanah, Melak
 ├── 08_Layout/                  # 5-zone yard layout, security infrastructure
 │   └── proposed_yard_layout.md
 │
-├── 09_Plan_Options/            # Three standalone plans — Hybrid recommended
+├── 09_Plan_Options/            # Three plans — Plan 3 Hybrid adopted
 │   ├── Plan_1_Blue.md
 │   ├── Plan_2_Red.md
 │   └── Plan_3_Hybrid.md
@@ -67,14 +69,14 @@ Relocation of the ROV yard from **Pasir Gudang, Johor** to **Masjid Tanah, Melak
 │   ├── README.md
 │   └── ADR-001_IMCA_Relocation.md
 │
-├── 11_Costing/                 # Full resource & cost tables — RM 103,265 revised
+├── 11_Costing/                 # Full resource & cost tables — RM 115,885 revised
 │   ├── Plan_3_Hybrid_Costing_Report.md
-│   ├── Blue_vs_Red_Costing_Discussion.md
-│   └── Archive_Moving_Plan_3_Initial_Draft.md
+│   └── Blue_vs_Red_Costing_Discussion.md
 │
-└── 99_Archive/                 # Superseded plans, IDEA notes
+└── 99_Archive/                 # Superseded plans, drafts, IDEA notes
     ├── IDEA.md
-    └── initial_plan_superseded.md
+    ├── initial_plan_superseded.md
+    └── Moving_Plan_3_Initial_Draft.md
 ```
 
 ---
@@ -85,12 +87,12 @@ Relocation of the ROV yard from **Pasir Gudang, Johor** to **Masjid Tanah, Melak
 |-------------|------|--------|
 | Master Moving Plan | `01_Planning/master_moving_plan.md` | ✅ Complete |
 | 8-Week Gantt Timeline | `05_Timeline/gantt_timeline.md` | ✅ Complete |
-| Risk Register (18 risks) | `06_Risk/risk_register.md` | ✅ Complete |
+| Risk Register (20 risks) | `06_Risk/risk_register.md` | ✅ Complete |
 | Stakeholder Register | `04_Stakeholders/stakeholder_register.md` | ✅ Complete |
 | Inventory Classification | `03_Inventory/inventory_classification.md` | ✅ Complete |
 | Proposed Yard Layout | `08_Layout/proposed_yard_layout.md` | ✅ Complete |
 | Plan 3 Hybrid (Recommended) | `09_Plan_Options/Plan_3_Hybrid.md` | ✅ Complete |
-| Plan 3 Costing — RM 103,265 | `11_Costing/Plan_3_Hybrid_Costing_Report.md` | ✅ Complete |
+| Plan 3 Costing — RM 115,885 | `11_Costing/Plan_3_Hybrid_Costing_Report.md` | ✅ Complete |
 | IMCA ADR-001 | `10_ADR/ADR-001_IMCA_Relocation.md` | 🔴 Open — blocks training equipment moves |
 
 ---
@@ -100,7 +102,8 @@ Relocation of the ROV yard from **Pasir Gudang, Johor** to **Masjid Tanah, Melak
 | Item | Status | Owner | Priority |
 |------|--------|-------|----------|
 | IMCA training establishment relocation | 🔴 OPEN | Training Management | CRITICAL |
-| Plan 3 Hybrid costing approval | 🟡 Pending senior management review | Finance / Director | HIGH |
+| Plan 3 Hybrid costing | ✅ Rerun complete — RM 115,885 (see costing report §5) | Finance | — |
+| Plan 3 Hybrid costing approval | 🟡 Ready for senior management approval — RM 115,885 | Finance / Director | HIGH |
 | Vendor contracts | 🟡 Not started — 3 quotes per vendor required | Procurement | HIGH |
 | Authority applications (MPPG, MPMT, JPJ) | 🟡 Not started | PM | MEDIUM |
 | New yard lease signing | 🟡 Not started | PM | MEDIUM |

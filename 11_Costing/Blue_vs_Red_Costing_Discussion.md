@@ -11,7 +11,7 @@ updated: 2026-10-19
 **Participants:**  
 - **Blue Team** — Governance, compliance, process perspective  
 - **Red Team** — Operations, execution, vendor perspective  
-**Subject:** Review of Plan 3 (Hybrid) Costing Report (RM 123,165)  
+**Subject:** Review of Plan 3 (Hybrid) Costing Report (RM 124,065 original / RM 115,885 revised)  
 **Date:** 19 October 2026  
 **Reference:** `11_Costing/Plan_3_Hybrid_Costing_Report.md`
 
@@ -27,7 +27,7 @@ updated: 2026-10-19
 
 ### Primary Argument
 
-> *"The total of RM 123,165 is inflated because the plan duplicates resources that already exist in the company, applies corporate-grade governance overhead to what is fundamentally a yard relocation, and stacks contingency on top of contingency. We can deliver this move for RM 85,000–95,000 without compromising safety or compliance."*
+> *"The total of RM 124,065 is inflated because the plan duplicates resources that already exist in the company, applies corporate-grade governance overhead to what is fundamentally a yard relocation, and stacks contingency on top of contingency. We can deliver this move for RM 85,000–95,000 without compromising safety or compliance."*
 
 ### Blue Team — Pros of the Current Estimated Costing
 
@@ -67,7 +67,7 @@ updated: 2026-10-19
 
 ### Primary Argument
 
-> *"The RM 123,165 figure is not a padded estimate — it is a realistic reflection of what it costs to move an ROV training operation with copper cables, heavy ROV components, and regulatory compliance obligations. Cutting corners on this budget will result in theft, injury, regulatory fines, or project failure. The estimates are, if anything, lean."*
+> *"The RM 124,065 figure is not a padded estimate — it is a realistic reflection of what it costs to move an ROV training operation with copper cables, heavy ROV components, and regulatory compliance obligations. Cutting corners on this budget will result in theft, injury, regulatory fines, or project failure. The estimates are, if anything, lean."*
 
 ### Red Team — Pros of the Current Estimated Costing
 
@@ -211,10 +211,12 @@ The PM facilitated the following resolutions, with both teams conceding on key p
 
 ## 6. REVISED COSTING SUMMARY
 
+> **Corrected on rerun (19 Oct 2026).** The table below was re-derived from the line items in `Plan_3_Hybrid_Costing_Report.md` after the review. Two errors in the original table were fixed: Category B had the inventory-team removal applied **twice** (B −10,000 *and* M −10,000), and the 10% contingency was not recomputed on the revised base. The corrected revised total is **RM 115,885**.
+
 | Category | Original (RM) | Adjustment (RM) | Revised (RM) |
 |---|---:|---:|---:|
 | A. Project Management & Governance | 21,700 | –1,600 | 20,100 |
-| B. Inventory & Classification | 11,800 | –10,000 | 1,800 |
+| B. Inventory & Classification | 11,800 | 0 | 11,800 |
 | C. New Yard Preparation & Infrastructure | 17,800 | 0 | 17,800 |
 | D. Packing & Materials | 6,100 | +500 | 6,600 |
 | E. Transportation — Heavy Haulage | 9,100 | 0 | 9,100 |
@@ -226,9 +228,9 @@ The PM facilitated the following resolutions, with both teams conceding on key p
 | K. Permits, Compliance & Authorities | 2,050 | +500 | 2,550 |
 | L. IT & Data Management | 1,800 | 0 | 1,800 |
 | M. Labour — Internal Team | 24,800 | –10,000 | 14,800 |
-| N. Contingency Provision | 10,365 | +200 | 10,565 |
+| N. Contingency Provision | 10,365 | +1,920 | 12,285 |
 | O. Miscellaneous & Unforeseen | 1,250 | –500 | 750 |
-| **TOTAL** | **123,165** | **–19,900** | **103,265** |
+| **TOTAL** | **124,065** | **–8,180** | **115,885** |
 
 ---
 
@@ -254,12 +256,12 @@ The PM facilitated the following resolutions, with both teams conceding on key p
 | 2 | Confirm IMCA implications and compliance requirements. | Training Management | Week 1 |
 | 3 | Negotiate with Masjid Tanah landlord for infrastructure contribution. | PM / Operations Lead | Week 3 |
 | 4 | Validate weather contingency against historical monsoon data. | PMO | Week 2 |
-| 5 | Finalize revised costing (RM 103,265) for senior management approval. | Finance Lead | Week 2 |
+| 5 | Finalize revised costing (RM 115,885) for senior management approval. | Finance Lead | Week 2 |
 | 6 | Establish weekly cost tracking against revised budget. | Finance Lead | Week 1 onwards |
 
 ### Nemo's Final Assessment
 
-> **The revised total of RM 103,265 is defensible.** It reflects a realistic middle ground between Blue's governance efficiency concerns and Red's operational risk awareness. The removal of duplicated inventory budget (RM 10,000) is the single largest correction and is objectively correct. The retained weather (RM 1,500) and vendor no-show (RM 500) provisions are justified by monsoon-season timing and vendor reliability risks. The IMCA compliance increase (RM 500) is a prudent regulatory buffer. The budget is now lean enough to be credible to senior management while preserving the risk protections that make the move safe and compliant.
+> **The revised total of RM 115,885 is defensible.** It reflects a realistic middle ground between Blue's governance efficiency concerns and Red's operational risk awareness. The removal of the duplicated inventory budget (RM 10,000) is the single largest correction and is objectively correct — applied **once**, under Category B. The retained weather (RM 1,500) and vendor no-show (RM 500) provisions are justified by monsoon-season timing and vendor reliability risks. The IMCA compliance increase (RM 500) is a prudent regulatory buffer, and the 10% contingency has been recomputed on the revised A–M base (RM 102,850) rather than carried over from the original draft. The budget is lean enough to be credible to senior management while preserving the risk protections that make the move safe and compliant.
 
 ---
 
