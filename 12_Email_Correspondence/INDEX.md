@@ -38,6 +38,21 @@
 - See `contacts.json` for structured contact data
 - See `contacts.md` for formatted contact list
 - New matching emails should be appended as they arrive
+- **Move plan deliverables have moved** to `13_Deliverables/` — they are project documents, not correspondence
+
+---
+
+## ⚠️ MISSING RECORDS (flagged 2026-10-19)
+
+The three emails listed in the summary table above **are not present on disk**. The index claims 3 archived emails; this folder holds 0.
+
+| # | Expected file | Status |
+|---|---|---|
+| 1 | `2026-10-19_RE_SS_Rover_x_Turcomp_-_Collaborative_Initiative.md` | ❌ MISSING |
+| 2 | `2026-10-19_Rover_R_Rescue_Plan__Responsibilities_for_Learning.md` | ❌ MISSING |
+| 3 | `2026-10-19_RE_Rover_R_Rescue_Plan__Responsibilities_for_Learning.md` | ❌ MISSING |
+
+**Action required:** re-export these three emails from Outlook (`bashirun.che@ssrover.com`) into this folder, or correct this index if they were withdrawn. Until then the index is not a reliable record of what is held. See `14_Data/DATA_QUALITY_REPORT.md` §2 D9.
 
 ---
 

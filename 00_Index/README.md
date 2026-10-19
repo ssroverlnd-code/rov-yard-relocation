@@ -32,6 +32,11 @@ updated: 2026-10-19
 | [[ADR-001_IMCA_Relocation.md\|10 — ADR]] | IMCA implications — CRITICAL, pending |
 | [[Plan_3_Hybrid_Costing_Report.md\|11 — Costing]] | Full resource & cost table — RM 115,885 revised |
 | [[Blue_vs_Red_Costing_Discussion.md\|11 — Costing]] | Blue vs Red team costing discussion & resolution |
+| [[INDEX.md\|12 — Correspondence]] | Relocation email index & contacts (21 contacts, 4 orgs) |
+| [[Move_Plan_ROV_Relocation.md\|13 — Deliverables]] | ROV relocation move plan (print-ready HTML version alongside) |
+| [[dataset_cleaned.csv\|14 — Data]] | Cleaned cost dataset — 72 records, reconciles to RM 115,885 |
+| [[OUTLIER_REPORT.md\|14 — Data]] | IQR / z-score outlier analysis |
+| [[DATA_QUALITY_REPORT.md\|14 — Data]] | 14 data-quality defects, severity & status |
 | [[IDEA.md\|99 — Archive]] | Project purpose & success criteria |
 | [[initial_plan_superseded.md\|99 — Archive]] | Superseded initial plan |
 | [[Moving_Plan_3_Initial_Draft.md\|99 — Archive]] | Superseded costing draft (RM 48,250) |

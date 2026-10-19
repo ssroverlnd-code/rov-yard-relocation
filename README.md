@@ -73,11 +73,22 @@ Relocation of the ROV yard from **Pasir Gudang, Johor** to **Masjid Tanah, Melak
 │   ├── Plan_3_Hybrid_Costing_Report.md
 │   └── Blue_vs_Red_Costing_Discussion.md
 │
-├── 12_Email_Correspondence/    # Yard-relocation email threads, move plan, contacts
+├── 12_Email_Correspondence/    # Yard-relocation email threads & contacts
 │   ├── INDEX.md
 │   ├── contacts.md
+│   └── contacts.json
+│
+├── 13_Deliverables/            # Issued documents — move plan (md + print-ready html)
 │   ├── Move_Plan_ROV_Relocation.md
-│   └── 2026-10-19_*.md
+│   └── Move_Plan_ROV_Relocation_Printable.html
+│
+├── 14_Data/                    # Cleaned dataset, outlier & data-quality reports
+│   ├── dataset_raw.csv
+│   ├── dataset_cleaned.csv
+│   ├── outliers_flagged.csv
+│   ├── analysis_results.json
+│   ├── OUTLIER_REPORT.md
+│   └── DATA_QUALITY_REPORT.md
 │
 └── 99_Archive/                 # Superseded plans, drafts, IDEA notes
     ├── IDEA.md
@@ -99,6 +110,10 @@ Relocation of the ROV yard from **Pasir Gudang, Johor** to **Masjid Tanah, Melak
 | Proposed Yard Layout | `08_Layout/proposed_yard_layout.md` | ✅ Complete |
 | Plan 3 Hybrid (Recommended) | `09_Plan_Options/Plan_3_Hybrid.md` | ✅ Complete |
 | Plan 3 Costing — RM 115,885 | `11_Costing/Plan_3_Hybrid_Costing_Report.md` | ✅ Complete |
+| ROV Move Plan (print-ready) | `13_Deliverables/Move_Plan_ROV_Relocation_Printable.html` | ✅ Complete |
+| Cleaned cost dataset (72 records) | `14_Data/dataset_cleaned.csv` | ✅ Complete |
+| Outlier removal report | `14_Data/OUTLIER_REPORT.md` | ✅ Complete |
+| Data quality report | `14_Data/DATA_QUALITY_REPORT.md` | ✅ Complete |
 | IMCA ADR-001 | `10_ADR/ADR-001_IMCA_Relocation.md` | 🔴 Open — blocks training equipment moves |
 
 ---

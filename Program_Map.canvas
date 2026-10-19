@@ -30,10 +30,16 @@
 		{"id":"g7","type":"group","label":"11 — Costing","x":400,"y":1700,"width":1200,"height":300},
 		{"id":"g8","type":"group","label":"99 — Archive","x":-800,"y":2050,"width":1800,"height":300},
 		{"id":"n22","type":"file","file":"README.md","x":500,"y":0,"width":400,"height":200,"color":"1"},
-		{"id":"n23","type":"file","file":"12_Email_Correspondence/Move_Plan_ROV_Relocation.md","x":1700,"y":350,"width":400,"height":200,"color":"1"},
-		{"id":"n24","type":"file","file":"12_Email_Correspondence/contacts.md","x":1700,"y":700,"width":400,"height":200,"color":"2"},
-		{"id":"n25","type":"file","file":"12_Email_Correspondence/INDEX.md","x":1700,"y":1050,"width":400,"height":200,"color":"2"},
-		{"id":"g9","type":"group","label":"12 — Email Correspondence","x":1600,"y":300,"width":600,"height":1000}
+		{"id":"n24","type":"file","file":"12_Email_Correspondence/contacts.md","x":1700,"y":350,"width":400,"height":200,"color":"2"},
+		{"id":"n25","type":"file","file":"12_Email_Correspondence/INDEX.md","x":1700,"y":700,"width":400,"height":200,"color":"2"},
+		{"id":"g9","type":"group","label":"12 — Correspondence","x":1600,"y":300,"width":600,"height":650},
+		{"id":"n23","type":"file","file":"13_Deliverables/Move_Plan_ROV_Relocation.md","x":1700,"y":1050,"width":400,"height":200,"color":"1"},
+		{"id":"n26","type":"file","file":"13_Deliverables/Move_Plan_ROV_Relocation_Printable.html","x":1700,"y":1400,"width":400,"height":200,"color":"1"},
+		{"id":"g10","type":"group","label":"13 — Deliverables","x":1600,"y":1000,"width":600,"height":650},
+		{"id":"n27","type":"file","file":"14_Data/dataset_cleaned.csv","x":2400,"y":350,"width":400,"height":200,"color":"4"},
+		{"id":"n28","type":"file","file":"14_Data/OUTLIER_REPORT.md","x":2400,"y":700,"width":400,"height":200,"color":"4"},
+		{"id":"n29","type":"file","file":"14_Data/DATA_QUALITY_REPORT.md","x":2400,"y":1050,"width":400,"height":200,"color":"4"},
+		{"id":"g11","type":"group","label":"14 — Data","x":2300,"y":300,"width":600,"height":1000}
 	],
 	"edges":[
 		{"id":"e1","fromNode":"n1","toNode":"n2","label":"overview","fromSide":"bottom","toSide":"top"},
@@ -70,8 +76,14 @@
 		{"id":"e32","fromNode":"n19","toNode":"n3","label":"drives","fromSide":"top","toSide":"bottom"},
 		{"id":"e33","fromNode":"n20","toNode":"n12","label":"superseded by","fromSide":"top","toSide":"bottom"},
 		{"id":"e34","fromNode":"n1","toNode":"n22","label":"index","fromSide":"right","toSide":"left"},
-		{"id":"e35","fromNode":"n1","toNode":"n23","label":"email move plan","fromSide":"right","toSide":"left"},
-		{"id":"e36","fromNode":"n23","toNode":"n24","label":"contacts from","fromSide":"bottom","toSide":"top"},
-		{"id":"e37","fromNode":"n23","toNode":"n25","label":"indexed by","fromSide":"bottom","toSide":"top"}
+		{"id":"e35","fromNode":"n1","toNode":"n23","label":"move plan","fromSide":"right","toSide":"left"},
+		{"id":"e36","fromNode":"n25","toNode":"n24","label":"lists contacts","fromSide":"bottom","toSide":"top"},
+		{"id":"e37","fromNode":"n23","toNode":"n17","label":"costed by","fromSide":"right","toSide":"left"},
+		{"id":"e38","fromNode":"n1","toNode":"n26","label":"print-ready","fromSide":"right","toSide":"left"},
+		{"id":"e39","fromNode":"n26","toNode":"n23","label":"renders","fromSide":"top","toSide":"bottom"},
+		{"id":"e40","fromNode":"n1","toNode":"n27","label":"cleaned dataset","fromSide":"right","toSide":"left"},
+		{"id":"e41","fromNode":"n17","toNode":"n27","label":"extracted from","fromSide":"right","toSide":"left"},
+		{"id":"e42","fromNode":"n27","toNode":"n28","label":"analysed in","fromSide":"bottom","toSide":"top"},
+		{"id":"e43","fromNode":"n27","toNode":"n29","label":"quality checked in","fromSide":"bottom","toSide":"top"}
 	]
 }

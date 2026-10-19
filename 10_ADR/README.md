@@ -9,7 +9,7 @@
 
 | ADR | Title | Status | Priority | Owner |
 |-----|-------|--------|----------|-------|
-| [ADR-001](ADR-001_IMCA_Training_Establishment_Relocation.md) | IMCA Implications — ROV Training Establishment Relocation | OPEN — Pending | CRITICAL | Training Management |
+| [ADR-001](ADR-001_IMCA_Relocation.md) | IMCA Implications — ROV Training Establishment Relocation | OPEN — Pending | CRITICAL | Training Management |
 
 ---
 

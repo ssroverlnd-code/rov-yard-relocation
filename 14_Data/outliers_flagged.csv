@@ -1,0 +1,6 @@
+line_id,category,resource_type,total_rm,z_score,methods,arithmetic_ok,verdict
+A1,PROJECT MANAGEMENT & GOVERNANCE,PM (Project Manager),8000.0,2.895,IQR-extreme,True,"REVIEW-HIGH-VALUE (valid cost line, retained)"
+A2,PROJECT MANAGEMENT & GOVERNANCE,HSE / Safety Officer,7200.0,2.533,IQR-1.5,True,"REVIEW-HIGH-VALUE (valid cost line, retained)"
+B1,INVENTORY & CLASSIFICATION,Inventory Team (3–4 persons),10000.0,3.801,IQR-extreme+z>=3,True,"REVIEW-HIGH-VALUE (valid cost line, retained)"
+E1,TRANSPORTATION — HEAVY HAULAGE (CLASS B),Low-Loader / Heavy Haulage,7500.0,2.669,IQR-extreme,True,"REVIEW-HIGH-VALUE (valid cost line, retained)"
+N1,CONTINGENCY PROVISION,General Contingency (10%),10285.0,3.93,IQR-extreme+z>=3,True,"REVIEW-HIGH-VALUE (valid cost line, retained)"

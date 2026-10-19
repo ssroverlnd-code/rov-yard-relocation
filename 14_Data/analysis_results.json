@@ -1,0 +1,130 @@
+{
+  "dataset": "ROV yard relocation \u2014 cost line items",
+  "source_file": "11_Costing/Plan_3_Hybrid_Costing_Report.md \u00a74",
+  "n_records": 72,
+  "iqr": {
+    "n": 72,
+    "q1": 400.0,
+    "median": 600.0,
+    "q3": 2100.0,
+    "iqr": 1700.0,
+    "lower_fence": -2150.0,
+    "upper_fence": 4650.0,
+    "lower_extreme": -4700.0,
+    "upper_extreme": 7200.0
+  },
+  "zscore": {
+    "mean": 1609.513888888889,
+    "stdev": 2207.3108614875705
+  },
+  "flagged_count": 5,
+  "figures_series": {
+    "iqr": {
+      "n": 9,
+      "q1": 99290.0,
+      "median": 104165.0,
+      "q3": 115885.0,
+      "iqr": 16595.0,
+      "lower_fence": 74397.5,
+      "upper_fence": 140777.5,
+      "lower_extreme": 49505.0,
+      "upper_extreme": 165670.0
+    },
+    "zscore": {
+      "mean": 107166.66666666667,
+      "stdev": 13225.914193355407
+    },
+    "rows": [
+      {
+        "value_rm": 85000,
+        "label": "Blue team target (lower bound)",
+        "source": "Blue_vs_Red_Costing_Discussion.md \u00a72",
+        "z_score": -1.676,
+        "methods": "-",
+        "iqr_outlier": false,
+        "z_outlier": false,
+        "status": "STALE/SUPERSEDED"
+      },
+      {
+        "value_rm": 95000,
+        "label": "Blue team target (upper bound)",
+        "source": "Blue_vs_Red_Costing_Discussion.md \u00a72",
+        "z_score": -0.92,
+        "methods": "-",
+        "iqr_outlier": false,
+        "z_outlier": false,
+        "status": "STALE/SUPERSEDED"
+      },
+      {
+        "value_rm": 99290,
+        "label": "Draft summary total",
+        "source": "Plan_3_Hybrid_Costing_Report.md \u00a75",
+        "z_score": -0.596,
+        "methods": "-",
+        "iqr_outlier": false,
+        "z_outlier": false,
+        "status": "STALE/SUPERSEDED"
+      },
+      {
+        "value_rm": 103265,
+        "label": "Revised stated total (pre-rerun)",
+        "source": "Blue_vs_Red_Costing_Discussion.md \u00a76",
+        "z_score": -0.295,
+        "methods": "-",
+        "iqr_outlier": false,
+        "z_outlier": false,
+        "status": "STALE/SUPERSEDED"
+      },
+      {
+        "value_rm": 104165,
+        "label": "Blue vs Red revised column, summed",
+        "source": "Plan_3_Hybrid_Costing_Report.md \u00a75",
+        "z_score": -0.227,
+        "methods": "-",
+        "iqr_outlier": false,
+        "z_outlier": false,
+        "status": "STALE/SUPERSEDED"
+      },
+      {
+        "value_rm": 114665,
+        "label": "Revised, contingency held at original",
+        "source": "Plan_3_Hybrid_Costing_Report.md \u00a75",
+        "z_score": 0.567,
+        "methods": "-",
+        "iqr_outlier": false,
+        "z_outlier": false,
+        "status": "STALE/SUPERSEDED"
+      },
+      {
+        "value_rm": 115885,
+        "label": "Revised estimate (current, v2.0)",
+        "source": "Plan_3_Hybrid_Costing_Report.md \u00a71",
+        "z_score": 0.659,
+        "methods": "-",
+        "iqr_outlier": false,
+        "z_outlier": false,
+        "status": "CURRENT"
+      },
+      {
+        "value_rm": 123165,
+        "label": "Original stated total",
+        "source": "Plan_3_Hybrid_Costing_Report.md \u00a75",
+        "z_score": 1.21,
+        "methods": "-",
+        "iqr_outlier": false,
+        "z_outlier": false,
+        "status": "STALE/SUPERSEDED"
+      },
+      {
+        "value_rm": 124065,
+        "label": "Original line items, summed",
+        "source": "Plan_3_Hybrid_Costing_Report.md \u00a75",
+        "z_score": 1.278,
+        "methods": "-",
+        "iqr_outlier": false,
+        "z_outlier": false,
+        "status": "STALE/SUPERSEDED"
+      }
+    ]
+  }
+}

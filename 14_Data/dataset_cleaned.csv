@@ -1,0 +1,73 @@
+line_id,category_code,category,resource_type,rate_value_rm,rate_unit,qty_value,qty_unit,total_rm,recomputed_total_rm,arithmetic_ok,z_score,iqr_flag,status
+A1,A,PROJECT MANAGEMENT & GOVERNANCE,PM (Project Manager),1000.00,/week,8,week,8000.00,8000.00,True,2.895,extreme,retained
+A2,A,PROJECT MANAGEMENT & GOVERNANCE,HSE / Safety Officer,900.00,/week,8,week,7200.00,7200.00,True,2.533,outlier,retained
+A3,A,PROJECT MANAGEMENT & GOVERNANCE,Finance & Administration,400.00,/week,8,week,3200.00,3200.00,True,0.721,,retained
+A4,A,PROJECT MANAGEMENT & GOVERNANCE,Project Setup & Comms,500.00,,1,,500.00,500.00,True,-0.503,,retained
+A5,A,PROJECT MANAGEMENT & GOVERNANCE,Weekly Status Reports & Documentation,150.00,/week,8,week,1200.00,1200.00,True,-0.186,,retained
+B1,B,INVENTORY & CLASSIFICATION,Inventory Team (3–4 persons),250.00,/person/day,40,day,10000.00,10000.00,True,3.801,extreme,retained
+B2,B,INVENTORY & CLASSIFICATION,Barcode/QR Tagging System,800.00,,1,,800.00,800.00,True,-0.367,,retained
+B3,B,INVENTORY & CLASSIFICATION,Photo Documentation (Class A),600.00,,1,,600.00,600.00,True,-0.457,,retained
+B4,B,INVENTORY & CLASSIFICATION,Variance Report & Reconciliation,400.00,,1,,400.00,400.00,True,-0.548,,retained
+C1,C,NEW YARD PREPARATION & INFRASTRUCTURE,Perimeter Fencing Upgrade,3500.00,,1,,3500.00,3500.00,True,0.856,,retained
+C2,C,NEW YARD PREPARATION & INFRASTRUCTURE,Secure Cage Installation,4500.00,,1,,4500.00,4500.00,True,1.310,,retained
+C3,C,NEW YARD PREPARATION & INFRASTRUCTURE,CCTV System (4+ cameras),3200.00,,1,,3200.00,3200.00,True,0.721,,retained
+C4,C,NEW YARD PREPARATION & INFRASTRUCTURE,Motion-Sensor Floodlights,1200.00,,1,,1200.00,1200.00,True,-0.186,,retained
+C5,C,NEW YARD PREPARATION & INFRASTRUCTURE,Alarm System (Zone 1 + Office),800.00,,1,,800.00,800.00,True,-0.367,,retained
+C6,C,NEW YARD PREPARATION & INFRASTRUCTURE,Heavy-Duty Shelving / Racking,2500.00,,1,,2500.00,2500.00,True,0.403,,retained
+C7,C,NEW YARD PREPARATION & INFRASTRUCTURE,Floor Marking & Signage,600.00,,1,,600.00,600.00,True,-0.457,,retained
+C8,C,NEW YARD PREPARATION & INFRASTRUCTURE,Fire Extinguishers & Safety Equipment,700.00,,1,,700.00,700.00,True,-0.412,,retained
+C9,C,NEW YARD PREPARATION & INFRASTRUCTURE,Utility Confirmation & Setup,500.00,,1,,500.00,500.00,True,-0.503,,retained
+C10,C,NEW YARD PREPARATION & INFRASTRUCTURE,Yard Handover Survey & Condition Report,300.00,,1,,300.00,300.00,True,-0.593,,retained
+D1,D,PACKING & MATERIALS,Tamper-Evident Sealed Crates (Class A),150.00,,20,,3000.00,3000.00,True,0.630,,retained
+D2,D,PACKING & MATERIALS,Anti-Static Packaging (Electronics),900.00,,1,,900.00,900.00,True,-0.321,,retained
+D3,D,PACKING & MATERIALS,Plastic Bins with Dividers (Class C),30.00,,40,,1200.00,1200.00,True,-0.186,,retained
+D4,D,PACKING & MATERIALS,Tool Rolls & Shadow Boards,25.00,,20,,500.00,500.00,True,-0.503,,retained
+D5,D,PACKING & MATERIALS,Secondary Containment (Chemicals),300.00,,1,,300.00,300.00,True,-0.593,,retained
+D6,D,PACKING & MATERIALS,"Packing Labels, Tape & Stationery",200.00,,1,,200.00,200.00,True,-0.639,,retained
+D7,D,PACKING & MATERIALS,Crating Materials (Class B),500.00,,1,,500.00,500.00,True,-0.503,,retained
+E1,E,TRANSPORTATION — HEAVY HAULAGE (CLASS B),Low-Loader / Heavy Haulage,2500.00,/trip,3,,7500.00,7500.00,True,2.669,extreme,retained
+E2,E,TRANSPORTATION — HEAVY HAULAGE (CLASS B),JPJ Oversized Load Permits,200.00,,2,,400.00,400.00,True,-0.548,,retained
+E3,E,TRANSPORTATION — HEAVY HAULAGE (CLASS B),Police/Authority Notification,300.00,,1,,300.00,300.00,True,-0.593,,retained
+E4,E,TRANSPORTATION — HEAVY HAULAGE (CLASS B),Route Planning & Survey,300.00,,1,,300.00,300.00,True,-0.593,,retained
+E5,E,TRANSPORTATION — HEAVY HAULAGE (CLASS B),Fuel Surcharge (Heavy Haulage),200.00,,3,,600.00,600.00,True,-0.457,,retained
+F1,F,TRANSPORTATION — GENERAL MOVERS (CLASS C & D),General Moving Company,1200.00,/load,2,,2400.00,2400.00,True,0.358,,retained
+F2,F,TRANSPORTATION — GENERAL MOVERS (CLASS C & D),Vehicle Hire (Small Van/Lorry),250.00,/day,4,,1000.00,1000.00,True,-0.276,,retained
+F3,F,TRANSPORTATION — GENERAL MOVERS (CLASS C & D),Fuel & Toll (General Transport),100.00,,4,,400.00,400.00,True,-0.548,,retained
+G1,G,CRANE & RIGGING SERVICES,Crane Hire (Class B Lifts),2000.00,/day,2,,4000.00,4000.00,True,1.083,,retained
+G2,G,CRANE & RIGGING SERVICES,Rigging Supervisor & Banksman,350.00,/day,2,,700.00,700.00,True,-0.412,,retained
+G3,G,CRANE & RIGGING SERVICES,Lift Plans & Risk Assessments,200.00,/item,3,,600.00,600.00,True,-0.457,,retained
+G4,G,CRANE & RIGGING SERVICES,Lifting Gear & Slings,300.00,,1,,300.00,300.00,True,-0.593,,retained
+G5,G,CRANE & RIGGING SERVICES,Pre-Lift Inspection Checklist,100.00,,1,,100.00,100.00,True,-0.684,,retained
+H1,H,SECURITY ESCORT (CLASS A CONVOY),Security Escort Firm,1500.00,,1,,1500.00,1500.00,True,-0.050,,retained
+H2,H,SECURITY ESCORT (CLASS A CONVOY),Security Personnel (Old Yard),200.00,/day,10,,2000.00,2000.00,True,0.177,,retained
+H3,H,SECURITY ESCORT (CLASS A CONVOY),Dual-Key Control & Sign-off,300.00,,1,,300.00,300.00,True,-0.593,,retained
+I1,I,"DISPOSAL, SCRAP & E-WASTE",Scrap Metal Collector,500.00,,1,,500.00,500.00,True,-0.503,,retained
+I2,I,"DISPOSAL, SCRAP & E-WASTE",E-Waste Recycler,400.00,,1,,400.00,400.00,True,-0.548,,retained
+I3,I,"DISPOSAL, SCRAP & E-WASTE",Furniture Sale Advertising,200.00,,1,,200.00,200.00,True,-0.639,,retained
+I4,I,"DISPOSAL, SCRAP & E-WASTE",Waste Disposal & Clean-Up,200.00,,1,,200.00,200.00,True,-0.639,,retained
+J1,J,INSURANCE COVERAGE,Goods-in-Transit Insurance,1500.00,,1,,1500.00,1500.00,True,-0.050,,retained
+J2,J,INSURANCE COVERAGE,Storage Insurance (New Yard),800.00,,1,,800.00,800.00,True,-0.367,,retained
+J3,J,INSURANCE COVERAGE,Public Liability Insurance,600.00,,1,,600.00,600.00,True,-0.457,,retained
+J4,J,INSURANCE COVERAGE,Marine Liability Endorsement,800.00,,1,,800.00,800.00,True,-0.367,,retained
+K1,K,"PERMITS, COMPLIANCE & AUTHORITIES",MPPG — Move-Out Notification,200.00,,1,,200.00,200.00,True,-0.639,,retained
+K2,K,"PERMITS, COMPLIANCE & AUTHORITIES",MPMT — New Yard Licence,400.00,,1,,400.00,400.00,True,-0.548,,retained
+K3,K,"PERMITS, COMPLIANCE & AUTHORITIES",DOSH / JKKP — Lifting Compliance,300.00,,1,,300.00,300.00,True,-0.593,,retained
+K4,K,"PERMITS, COMPLIANCE & AUTHORITIES",DOE / JAS — Waste Disposal,200.00,,1,,200.00,200.00,True,-0.639,,retained
+K5,K,"PERMITS, COMPLIANCE & AUTHORITIES",JBPM / BOMBA — Fire Safety,150.00,,1,,150.00,150.00,True,-0.661,,retained
+K6,K,"PERMITS, COMPLIANCE & AUTHORITIES",IMCA — Training Establishment,1000.00,,1,,1000.00,1000.00,True,-0.276,,retained
+K7,K,"PERMITS, COMPLIANCE & AUTHORITIES",Lease Agreement & Legal Review,300.00,,1,,300.00,300.00,True,-0.593,,retained
+L1,L,IT & DATA MANAGEMENT,IT Equipment Disconnect & Packing,500.00,,1,,500.00,500.00,True,-0.503,,retained
+L2,L,IT & DATA MANAGEMENT,IT Reinstall & Connectivity Setup,600.00,,1,,600.00,600.00,True,-0.457,,retained
+L3,L,IT & DATA MANAGEMENT,Data Backup & Verification,400.00,,1,,400.00,400.00,True,-0.548,,retained
+L4,L,IT & DATA MANAGEMENT,Filing Cabinet Custody,300.00,,1,,300.00,300.00,True,-0.593,,retained
+M2,M,LABOUR — INTERNAL TEAM (8 WEEKS),Procurement & Logistics Lead,350.00,/week,8,week,2800.00,2800.00,True,0.539,,retained
+M3,M,LABOUR — INTERNAL TEAM (8 WEEKS),Security Lead (Internal),300.00,/week,8,week,2400.00,2400.00,True,0.358,,retained
+M4,M,LABOUR — INTERNAL TEAM (8 WEEKS),Technical / Yard Supervisor,350.00,/week,8,week,2800.00,2800.00,True,0.539,,retained
+M5,M,LABOUR — INTERNAL TEAM (8 WEEKS),IT / Document Custodian,300.00,/week,8,week,2400.00,2400.00,True,0.358,,retained
+M6,M,LABOUR — INTERNAL TEAM (8 WEEKS),Warehouse & Storage Lead,250.00,/week,8,week,2000.00,2000.00,True,0.177,,retained
+M7,M,LABOUR — INTERNAL TEAM (8 WEEKS),Operations / Facilities Lead,300.00,/week,8,week,2400.00,2400.00,True,0.358,,retained
+N1,N,CONTINGENCY PROVISION,General Contingency (10%),,,,,10285.00,,True,3.930,extreme,retained
+N2,N,CONTINGENCY PROVISION,Weather Delay Provision,1500.00,,1,,1500.00,1500.00,True,-0.050,,retained
+N3,N,CONTINGENCY PROVISION,Vendor No-Show Backup,500.00,,1,,500.00,500.00,True,-0.503,,retained
+O1,O,MISCELLANEOUS & UNFORESEEN,Communication & Documentation,300.00,,1,,300.00,300.00,True,-0.593,,retained
+O3,O,MISCELLANEOUS & UNFORESEEN,Post-Move Operational Buffer,450.00,,1,,450.00,450.00,True,-0.525,,retained

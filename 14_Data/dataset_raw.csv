@@ -1,0 +1,73 @@
+line_id,category_code,category,category_stated_total,resource_type,rate_raw,qty_raw,rate_value,qty_value,total_rm,recomputed_total,arithmetic_ok,description
+A1,A,PROJECT MANAGEMENT & GOVERNANCE,20100,PM (Project Manager),"1,000/week",8 weeks,1000.0,8.0,8000.0,8000.0,True,"Gate approvals, stakeholder management, weekly status reports, dependency tracking."
+A2,A,PROJECT MANAGEMENT & GOVERNANCE,20100,HSE / Safety Officer,900/week,8 weeks,900.0,8.0,7200.0,7200.0,True,"Risk assessments, lift plan review, toolbox briefings, site safety checks, DOSH/JKKP compliance."
+A3,A,PROJECT MANAGEMENT & GOVERNANCE,20100,Finance & Administration,400/week,8 weeks,400.0,8.0,3200.0,3200.0,True,"Disposal approvals, asset register updates, payment processing, compliance documentation."
+A4,A,PROJECT MANAGEMENT & GOVERNANCE,20100,Project Setup & Comms,500,1,500.0,1.0,500.0,500.0,True,"Project folder, WhatsApp group, email thread, shared drives, kickoff materials."
+A5,A,PROJECT MANAGEMENT & GOVERNANCE,20100,Weekly Status Reports & Documentation,150/week,8 weeks,150.0,8.0,1200.0,1200.0,True,"Gate checklists, meeting minutes, progress reports, closure report."
+B1,B,INVENTORY & CLASSIFICATION,11800,Inventory Team (3–4 persons),250/person/day,4 × 10 days,250.0,40.0,10000.0,10000.0,True,"Stocktake across all zones — 6-category classification, condition coding. **Budgeted once here (was duplicated in M1).**"
+B2,B,INVENTORY & CLASSIFICATION,11800,Barcode/QR Tagging System,800,1,800.0,1.0,800.0,800.0,True,"Labels, portable printer, scanning device, inventory spreadsheet setup."
+B3,B,INVENTORY & CLASSIFICATION,11800,Photo Documentation (Class A),600,1,600.0,1.0,600.0,600.0,True,"Condition photography of all high-value items — pre-move, at packing, post-receipt."
+B4,B,INVENTORY & CLASSIFICATION,11800,Variance Report & Reconciliation,400,1,400.0,1.0,400.0,400.0,True,"Comparison against last known records, discrepancy register, secondary verification."
+C1,C,NEW YARD PREPARATION & INFRASTRUCTURE,17800,Perimeter Fencing Upgrade,"3,500",1,3500.0,1.0,3500.0,3500.0,True,2.4 m chain-link fencing with repairs/upgrades at Masjid Tanah yard.
+C2,C,NEW YARD PREPARATION & INFRASTRUCTURE,17800,Secure Cage Installation,"4,500",1,4500.0,1.0,4500.0,4500.0,True,"2.4 m chain-link cage, lockable gate, roof, dual-key control — Zone 1 for Class A items."
+C3,C,NEW YARD PREPARATION & INFRASTRUCTURE,17800,CCTV System (4+ cameras),"3,200",1,3200.0,1.0,3200.0,3200.0,True,"Entrance, Zone 1, Zone 2, Zone 5 — operational and recording before first shipment."
+C4,C,NEW YARD PREPARATION & INFRASTRUCTURE,17800,Motion-Sensor Floodlights,"1,200",1,1200.0,1.0,1200.0,1200.0,True,"All zones, dusk-activated — perimeter and zone lighting."
+C5,C,NEW YARD PREPARATION & INFRASTRUCTURE,17800,Alarm System (Zone 1 + Office),800,1,800.0,1.0,800.0,800.0,True,Motion-sensor alarm on secure cage and office.
+C6,C,NEW YARD PREPARATION & INFRASTRUCTURE,17800,Heavy-Duty Shelving / Racking,"2,500",1,2500.0,1.0,2500.0,2500.0,True,"4-level steel racking, 12 bays — Zone 3 for consumables."
+C7,C,NEW YARD PREPARATION & INFRASTRUCTURE,17800,Floor Marking & Signage,600,1,600.0,1.0,600.0,600.0,True,"Colour-coded zone borders, signage, vehicle one-way loop."
+C8,C,NEW YARD PREPARATION & INFRASTRUCTURE,17800,Fire Extinguishers & Safety Equipment,700,1,700.0,1.0,700.0,700.0,True,"2 per zone (5 zones), plus spill kit, first aid kit, PPE."
+C9,C,NEW YARD PREPARATION & INFRASTRUCTURE,17800,Utility Confirmation & Setup,500,1,500.0,1.0,500.0,500.0,True,"Power, water, welfare facilities verification and minor setup."
+C10,C,NEW YARD PREPARATION & INFRASTRUCTURE,17800,Yard Handover Survey & Condition Report,300,1,300.0,1.0,300.0,300.0,True,"Joint inspection with landlord, written condition report, photo evidence."
+D1,D,PACKING & MATERIALS,6600,Tamper-Evident Sealed Crates (Class A),150,20,150.0,20.0,3000.0,3000.0,True,"Custom crates with seals, item-level manifest pouches, shock indicators."
+D2,D,PACKING & MATERIALS,6600,Anti-Static Packaging (Electronics),900,1,900.0,1.0,900.0,900.0,True,"Anti-static bags, wrap and containers for ROV electronics and IT equipment."
+D3,D,PACKING & MATERIALS,6600,Plastic Bins with Dividers (Class C),30,40,30.0,40.0,1200.0,1200.0,True,"Labelled bins for fasteners, fittings, consumables — grouped by type."
+D4,D,PACKING & MATERIALS,6600,Tool Rolls & Shadow Boards,25,20,25.0,20.0,500.0,500.0,True,For hand tools — organised packing and accountability.
+D5,D,PACKING & MATERIALS,6600,Secondary Containment (Chemicals),300,1,300.0,1.0,300.0,300.0,True,Spill containment trays and containers for hazardous consumables.
+D6,D,PACKING & MATERIALS,6600,"Packing Labels, Tape & Stationery",200,1,200.0,1.0,200.0,200.0,True,"Colour-coded labels, packing tape, manifest forms, custody records."
+D7,D,PACKING & MATERIALS,6600,Crating Materials (Class B),500,1,500.0,1.0,500.0,500.0,True,"Plywood crates, foam padding, moisture barrier for heavy/oversized items."
+E1,E,TRANSPORTATION — HEAVY HAULAGE (CLASS B),9100,Low-Loader / Heavy Haulage,"2,500/trip",3,2500.0,3.0,7500.0,7500.0,True,"ROV components, structural steel, skids, large containers — Weeks 4–6."
+E2,E,TRANSPORTATION — HEAVY HAULAGE (CLASS B),9100,JPJ Oversized Load Permits,200,2,200.0,2.0,400.0,400.0,True,If any Class B item exceeds standard vehicle dimensions.
+E3,E,TRANSPORTATION — HEAVY HAULAGE (CLASS B),9100,Police/Authority Notification,300,1,300.0,1.0,300.0,300.0,True,For oversized loads — route coordination and traffic management.
+E4,E,TRANSPORTATION — HEAVY HAULAGE (CLASS B),9100,Route Planning & Survey,300,1,300.0,1.0,300.0,300.0,True,"Pre-move route survey for heavy loads — bridge limits, road conditions, turn radii."
+E5,E,TRANSPORTATION — HEAVY HAULAGE (CLASS B),9100,Fuel Surcharge (Heavy Haulage),200,3,200.0,3.0,600.0,600.0,True,"Diesel surcharge for extended distance (Pasir Gudang → Masjid Tanah, ~250 km)."
+F1,F,TRANSPORTATION — GENERAL MOVERS (CLASS C & D),3800,General Moving Company,"1,200/load",2,1200.0,2.0,2400.0,2400.0,True,"Warehouse items, office equipment, consumables — Weeks 5–7."
+F2,F,TRANSPORTATION — GENERAL MOVERS (CLASS C & D),3800,Vehicle Hire (Small Van/Lorry),250/day,4,250.0,4.0,1000.0,1000.0,True,"For loose items and consumables — multiple runs, Weeks 6–7."
+F3,F,TRANSPORTATION — GENERAL MOVERS (CLASS C & D),3800,Fuel & Toll (General Transport),100,4,100.0,4.0,400.0,400.0,True,Diesel and highway tolls for general moving vehicles.
+G1,G,CRANE & RIGGING SERVICES,5700,Crane Hire (Class B Lifts),"2,000/day",2,2000.0,2.0,4000.0,4000.0,True,"Mobile crane for heavy item lifts — ROV components, structural steel."
+G2,G,CRANE & RIGGING SERVICES,5700,Rigging Supervisor & Banksman,350/day,2,350.0,2.0,700.0,700.0,True,"Certified rigging supervision, exclusion zone management, lift plan execution."
+G3,G,CRANE & RIGGING SERVICES,5700,Lift Plans & Risk Assessments,200/item,3,200.0,3.0,600.0,600.0,True,"Per-item lift plans, method statements, risk assessments."
+G4,G,CRANE & RIGGING SERVICES,5700,Lifting Gear & Slings,300,1,300.0,1.0,300.0,300.0,True,"Certified slings, spreader beams, shackles — per lift requirements."
+G5,G,CRANE & RIGGING SERVICES,5700,Pre-Lift Inspection Checklist,100,1,100.0,1.0,100.0,100.0,True,Documentation and inspection protocol before each lift.
+H1,H,SECURITY ESCORT (CLASS A CONVOY),3800,Security Escort Firm,"1,500",1,1500.0,1.0,1500.0,1500.0,True,"Armed/security escort for Class A convoy — Week 4, direct transit."
+H2,H,SECURITY ESCORT (CLASS A CONVOY),3800,Security Personnel (Old Yard),200/day,10,200.0,10.0,2000.0,2000.0,True,Increased security presence at Pasir Gudang until Class A cleared.
+H3,H,SECURITY ESCORT (CLASS A CONVOY),3800,Dual-Key Control & Sign-off,300,1,300.0,1.0,300.0,300.0,True,"Dual-signature at loading, 30-min checkpoint calls, signed manifest at receipt."
+I1,I,"DISPOSAL, SCRAP & E-WASTE",1300,Scrap Metal Collector,500,1,500.0,1.0,500.0,500.0,True,"Collection and sale of scrap metal — furniture, obsolete items."
+I2,I,"DISPOSAL, SCRAP & E-WASTE",1300,E-Waste Recycler,400,1,400.0,1.0,400.0,400.0,True,Licensed e-waste disposal for obsolete electronics.
+I3,I,"DISPOSAL, SCRAP & E-WASTE",1300,Furniture Sale Advertising,200,1,200.0,1.0,200.0,200.0,True,Online/auction/direct sale of saleable office furniture.
+I4,I,"DISPOSAL, SCRAP & E-WASTE",1300,Waste Disposal & Clean-Up,200,1,200.0,1.0,200.0,200.0,True,Non-hazardous waste removal and final clean-up.
+J1,J,INSURANCE COVERAGE,3700,Goods-in-Transit Insurance,"1,500",1,1500.0,1.0,1500.0,1500.0,True,"Coverage for all items during relocation — Class A, B, C, D."
+J2,J,INSURANCE COVERAGE,3700,Storage Insurance (New Yard),800,1,800.0,1.0,800.0,800.0,True,Coverage for items stored at Masjid Tanah yard during and after move.
+J3,J,INSURANCE COVERAGE,3700,Public Liability Insurance,600,1,600.0,1.0,600.0,600.0,True,Event-specific cover for lifting operations at both sites.
+J4,J,INSURANCE COVERAGE,3700,Marine Liability Endorsement,800,1,800.0,1.0,800.0,800.0,True,Extension for ROV training establishment relocation — IMCA-related.
+K1,K,"PERMITS, COMPLIANCE & AUTHORITIES",2550,MPPG — Move-Out Notification,200,1,200.0,1.0,200.0,200.0,True,Trade licence surrender and move-out notification.
+K2,K,"PERMITS, COMPLIANCE & AUTHORITIES",2550,MPMT — New Yard Licence,400,1,400.0,1.0,400.0,400.0,True,New yard trade licence / occupancy permit.
+K3,K,"PERMITS, COMPLIANCE & AUTHORITIES",2550,DOSH / JKKP — Lifting Compliance,300,1,300.0,1.0,300.0,300.0,True,Lifting machinery and workplace safety compliance.
+K4,K,"PERMITS, COMPLIANCE & AUTHORITIES",2550,DOE / JAS — Waste Disposal,200,1,200.0,1.0,200.0,200.0,True,Scheduled waste or regulated disposal compliance.
+K5,K,"PERMITS, COMPLIANCE & AUTHORITIES",2550,JBPM / BOMBA — Fire Safety,150,1,150.0,1.0,150.0,150.0,True,Premises fire safety compliance.
+K6,K,"PERMITS, COMPLIANCE & AUTHORITIES",2550,IMCA — Training Establishment,"1,000",1,1000.0,1.0,1000.0,1000.0,True,ROV training establishment relocation — re-approval implications.
+K7,K,"PERMITS, COMPLIANCE & AUTHORITIES",2550,Lease Agreement & Legal Review,300,1,300.0,1.0,300.0,300.0,True,"New yard lease review, penalty clauses, handover terms."
+L1,L,IT & DATA MANAGEMENT,1800,IT Equipment Disconnect & Packing,500,1,500.0,1.0,500.0,500.0,True,"Anti-static packing, controlled custody, data backup before disconnect."
+L2,L,IT & DATA MANAGEMENT,1800,IT Reinstall & Connectivity Setup,600,1,600.0,1.0,600.0,600.0,True,"Reinstallation, basic connectivity, UPS setup at new yard."
+L3,L,IT & DATA MANAGEMENT,1800,Data Backup & Verification,400,1,400.0,1.0,400.0,400.0,True,"Full data backup before move, verification after reinstall."
+L4,L,IT & DATA MANAGEMENT,1800,Filing Cabinet Custody,300,1,300.0,1.0,300.0,300.0,True,"Controlled custody, archive box packing, document sorting."
+M2,M,LABOUR — INTERNAL TEAM (8 WEEKS),14800,Procurement & Logistics Lead,350/week,8 weeks,350.0,8.0,2800.0,2800.0,True,"Vendor management — 6 vendor types, 3 quotes each, booking protocols, manifests."
+M3,M,LABOUR — INTERNAL TEAM (8 WEEKS),14800,Security Lead (Internal),300/week,8 weeks,300.0,8.0,2400.0,2400.0,True,"Class A handling, security escort coordination, secure cage management."
+M4,M,LABOUR — INTERNAL TEAM (8 WEEKS),14800,Technical / Yard Supervisor,350/week,8 weeks,350.0,8.0,2800.0,2800.0,True,"Asset identification, technical confirmation for disposals, lifting supervision."
+M5,M,LABOUR — INTERNAL TEAM (8 WEEKS),14800,IT / Document Custodian,300/week,8 weeks,300.0,8.0,2400.0,2400.0,True,"IT backup, packing, reinstall, filing cabinet custody, data protection."
+M6,M,LABOUR — INTERNAL TEAM (8 WEEKS),14800,Warehouse & Storage Lead,250/week,8 weeks,250.0,8.0,2000.0,2000.0,True,"Packing, labelling, staging for dispatch, shelving by category."
+M7,M,LABOUR — INTERNAL TEAM (8 WEEKS),14800,Operations / Facilities Lead,300/week,8 weeks,300.0,8.0,2400.0,2400.0,True,"New yard layout, fencing, lighting, racking, utilities, clean-up."
+N1,N,CONTINGENCY PROVISION,12285,General Contingency (10%),—,—,,,10285.0,,True,"10% of revised subtotals A–M (RM 102,850) — price escalation, scope creep, minor variations."
+N2,N,CONTINGENCY PROVISION,12285,Weather Delay Provision,"1,500",1,1500.0,1.0,1500.0,1500.0,True,Monsoon-season delays for heavy lifts and transport.
+N3,N,CONTINGENCY PROVISION,12285,Vendor No-Show Backup,500,1,500.0,1.0,500.0,500.0,True,Backup vendor activation if primary vendor fails.
+O1,O,MISCELLANEOUS & UNFORESEEN,750,Communication & Documentation,300,1,300.0,1.0,300.0,300.0,True,"Daily move log, progress photos, completion certificate."
+O3,O,MISCELLANEOUS & UNFORESEEN,750,Post-Move Operational Buffer,450,1,450.0,1.0,450.0,450.0,True,One week standby technician availability for post-move snags.
