@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ROV Unit Relocation Move Plan — Kota Masai → Pengkalan Balak</title>
+<style>
+  :root {
+    --primary: #1a3a5c;
+    --accent: #c0392b;
+    --light: #f4f6f8;
+    --border: #bdc3c7;
+    --text: #2c3e50;
+    --success: #27ae60;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+    color: var(--text);
+    line-height: 1.55;
+    max-width: 210mm;
+    margin: 0 auto;
+    padding: 20mm 18mm;
+    background: #fff;
+  }
+  @media print {
+    body { padding: 0; max-width: none; }
+    .page-break { page-break-before: always; }
+    .no-print { display: none; }
+    @page { size: A4; margin: 15mm; }
+    h2 { page-break-after: avoid; }
+    table { page-break-inside: avoid; }
+  }
+  .header {
+    text-align: center;
+    border-bottom: 3px solid var(--primary);
+    padding-bottom: 15px;
+    margin-bottom: 22px;
+  }
+  .header h1 { color: var(--primary); font-size: 22pt; margin-bottom: 5px; }
+  .header .subtitle { color: var(--accent); font-size: 12pt; font-weight: 600; }
+  .doc-meta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px 20px;
+    background: var(--light);
+    padding: 12px 15px;
+    border-radius: 6px;
+    margin-bottom: 22px;
+    font-size: 9.5pt;
+  }
+  .doc-meta strong { color: var(--primary); }
+  h2 {
+    color: var(--primary);
+    font-size: 14pt;
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 4px;
+    margin: 24px 0 12px;
+  }
+  h3 { color: var(--accent); font-size: 11.5pt; margin: 18px 0 8px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0 18px;
+    font-size: 9.5pt;
+  }
+  th { background: var(--primary); color: #fff; padding: 7px 9px; text-align: left; font-weight: 600; }
+  td { padding: 6px 9px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:nth-child(even) td { background: var(--light); }
+  ul, ol { margin: 8px 0 15px 20px; }
+  li { margin-bottom: 4px; }
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 12px 0;
+  }
+  .contact-card { border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px; }
+  .contact-card .name { font-weight: 700; color: var(--primary); }
+  .contact-card .role { font-size: 9pt; color: var(--accent); font-weight: 600; }
+  .contact-card .org { font-size: 9pt; }
+  .contact-card .email { font-size: 8.5pt; color: #555; word-break: break-all; }
+  .contact-card.leader { border-left: 4px solid var(--primary); background: #eef3f8; }
+  .contact-card.turcomp { border-left: 4px solid var(--accent); }
+  .phase { margin-bottom: 18px; }
+  .phase-title {
+    background: var(--primary);
+    color: #fff;
+    padding: 6px 12px;
+    font-weight: 600;
+    font-size: 10.5pt;
+    border-radius: 4px 4px 0 0;
+    overflow: hidden;
+  }
+  .phase-title .pct { float: right; font-weight: 400; font-size: 9pt; opacity: 0.85; }
+  .risk-high { color: var(--accent); font-weight: 700; }
+  .risk-med { color: #e67e22; font-weight: 600; }
+  .risk-low { color: var(--success); font-weight: 600; }
+  .signoff td { height: 40px; }
+  .signoff .sig-line { border-bottom: 1px solid #666; height: 28px; }
+  .footer {
+    margin-top: 28px;
+    padding-top: 12px;
+    border-top: 2px solid var(--primary);
+    font-size: 8.5pt;
+    color: #666;
+    text-align: center;
+  }
+  .note {
+    background: #fdf3e7;
+    border-left: 4px solid #e67e22;
+    padding: 9px 13px;
+    font-size: 9.5pt;
+    margin: 12px 0;
+    border-radius: 0 4px 4px 0;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>ROV Unit Relocation Move Plan</h1>
+  <div class="subtitle">Kota Masai Yard → Pengkalan Balak Yard (Masjid Tanah, Melaka)</div>
+</div>
+
+<div class="doc-meta">
+  <div><strong>Document No:</strong> MOV-2026-001</div>
+  <div><strong>Version:</strong> 1.1 (Draft for Review)</div>
+  <div><strong>Date:</strong> 2026-10-19</div>
+  <div><strong>Prepared by:</strong> Bashirun Che — Relocation Lead</div>
+  <div><strong>Business Unit:</strong> Under Water Services (UWS) — SS Rover × Turcomp</div>
+  <div><strong>Approved by:</strong> Syamsul Nizam — Managing Director</div>
+</div>
+
+<h2>1. Executive Summary</h2>
+<p>This document outlines the plan for relocating the ROV (Remotely Operated Vehicle) unit and associated assets from the current Kota Masai Yard to the Pengkalan Balak Yard in Masjid Tanah, Melaka. The relocation supports the newly established "Under Water Services" (UWS) Business Unit under the Melaka Branch, in collaboration with Turcomp Engineering Services Sdn Bhd.</p>
+<p>Work is delegated across the SS Rover internal team by workstream — governance and approval (Managing Director), operations and HSE (Operation Manager), procurement and contracts (Procurement Manager), and execution (Relocation Lead, Warehouse Executive, Supervisor) — with Turcomp as receiving-party focal point.</p>
+
+<h2>2. Objectives</h2>
+<ul>
+  <li>Safely relocate all ROV assets from Kota Masai to Pengkalan Balak Yard</li>
+  <li>Zero loss or damage to equipment during transfer</li>
+  <li>Minimal operational downtime during transition</li>
+  <li>Clear inventory handover with full asset verification</li>
+  <li>Compliance with both SS Rover and Turcomp HSE requirements</li>
+  <li>Clear delegation of authority — every task has one accountable owner</li>
+</ul>
+
+<div class="page-break"></div>
+
+<h2>3. Project Organisation &amp; Delegation of Authority</h2>
+
+<h3>3.1 Internal Team — Roles &amp; Delegated Authority</h3>
+<table>
+  <thead>
+    <tr><th>Name</th><th>Position</th><th>Delegated Responsibility</th><th>Authority</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Syamsul Nizam</strong></td>
+      <td>Managing Director</td>
+      <td>Project sponsor. Final plan approval, budget sign-off, escalation of critical issues, formal project closure.</td>
+      <td>Approve / Authorise</td>
+    </tr>
+    <tr>
+      <td><strong>Nizam Kamal</strong></td>
+      <td>Operation Manager</td>
+      <td>Operational oversight, HSE risk assessment &amp; compliance, execution supervision at both yards, damage / loss escalation.</td>
+      <td>Direct / Execute</td>
+    </tr>
+    <tr>
+      <td><strong>Noorfarah Izza</strong></td>
+      <td>Procurement Manager</td>
+      <td>Vendor &amp; contractor engagement, transport procurement, packing materials, transit insurance, contract negotiation.</td>
+      <td>Procure / Commit<br><small>(within approved budget)</small></td>
+    </tr>
+    <tr>
+      <td><strong>Bashirun Che</strong></td>
+      <td>Relocation Lead<br><small>(Project Manager)</small></td>
+      <td>Overall coordination, plan ownership, progress reporting, asset register, Turcomp liaison, handover.</td>
+      <td>Manage / Coordinate</td>
+    </tr>
+    <tr>
+      <td><strong>Wahyudin Azmi</strong></td>
+      <td>Coordination Support</td>
+      <td>Transport liaison, scheduling support, contractor coordination on site.</td>
+      <td>Support</td>
+    </tr>
+    <tr>
+      <td><strong>Hammam</strong></td>
+      <td>Warehouse Executive</td>
+      <td>Inventory count &amp; classification, asset register upkeep, packing &amp; labelling, post-move reconciliation.</td>
+      <td>Execute</td>
+    </tr>
+    <tr>
+      <td><strong>Ihsan</strong></td>
+      <td>Supervisor (SV)</td>
+      <td>On-site supervision, physical asset verification, loading &amp; offloading control, layout positioning.</td>
+      <td>Supervise / Execute</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>3.2 Workstream Ownership</h3>
+<table>
+  <thead>
+    <tr><th>Workstream</th><th>Accountable Owner</th><th>Support</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Governance, Budget &amp; Approval</td><td>Syamsul Nizam (MD)</td><td>Bashirun Che</td></tr>
+    <tr><td>HSE &amp; Operations</td><td>Nizam Kamal (Operation Manager)</td><td>Ihsan (SV)</td></tr>
+    <tr><td>Procurement &amp; Contracts</td><td>Noorfarah Izza (Procurement Manager)</td><td>Wahyudin Azmi</td></tr>
+    <tr><td>Inventory &amp; Warehouse</td><td>Hammam (Warehouse Executive)</td><td>Ihsan (SV)</td></tr>
+    <tr><td>Site Execution &amp; Logistics</td><td>Ihsan (SV)</td><td>Hammam, Turcomp team</td></tr>
+    <tr><td>Coordination &amp; Reporting</td><td>Bashirun Che (Relocation Lead)</td><td>Wahyudin Azmi</td></tr>
+  </tbody>
+</table>
+
+<div class="note">
+  <strong>Escalation path:</strong> Task owner → Relocation Lead (Bashirun Che) → Operation Manager (Nizam Kamal) → Managing Director (Syamsul Nizam). Any cost variation beyond the approved budget requires Procurement Manager recommendation and MD sign-off.
+</div>
+
+<div class="page-break"></div>
+
+<h2>4. Scope of Relocation</h2>
+
+<h3>4.1 Assets to Be Moved</h3>
+<table>
+  <thead>
+    <tr><th>Category</th><th>Items</th><th>Current Location</th><th>Owner</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>ROV Main Unit</strong></td><td>ROV system, tether, control cabin</td><td>Kota Masai Yard</td><td>Ihsan (SV)</td></tr>
+    <tr><td><strong>Workshop Equipment</strong></td><td>Spares, tooling, test equipment</td><td>Kota Masai Yard</td><td>Hammam</td></tr>
+    <tr><td><strong>Warehouse Inventory</strong></td><td>Consumables, parts, materials</td><td>Kota Masai Yard</td><td>Hammam</td></tr>
+    <tr><td><strong>IT &amp; Communications</strong></td><td>Workstations, network equipment</td><td>Kota Masai Yard</td><td>Wahyudin Azmi</td></tr>
+    <tr><td><strong>Documentation</strong></td><td>Manuals, certificates, records</td><td>Kota Masai Yard</td><td>Bashirun Che</td></tr>
+  </tbody>
+</table>
+
+<h3>4.2 Assets Remaining at Kota Masai</h3>
+<ul>
+  <li>Items not required at the new yard (to be identified during verification)</li>
+  <li>Assets assigned to other business units</li>
+</ul>
+
+<h2>5. Relocation Phases</h2>
+
+<div class="phase">
+  <div class="phase-title">Phase 1: Planning &amp; Verification (19 – 23 Oct 2026)<span class="pct">Led by: Bashirun Che</span></div>
+  <table>
+    <thead><tr><th>#</th><th>Task</th><th>Delegated To</th><th>Deadline</th></tr></thead>
+    <tbody>
+      <tr><td>1.1</td><td>Physical asset verification at Kota Masai Yard</td><td>Hammam &amp; Ihsan (SV)</td><td>21 Oct</td></tr>
+      <tr><td>1.2</td><td>Inventory count &amp; condition report</td><td>Hammam (Warehouse Exec)</td><td>22 Oct</td></tr>
+      <tr><td>1.3</td><td>Update Asset Register with current locations &amp; conditions</td><td>Hammam</td><td>22 Oct</td></tr>
+      <tr><td>1.4</td><td>Identify items to move vs. items to remain</td><td>Bashirun Che &amp; Ihsan (SV)</td><td>22 Oct</td></tr>
+      <tr><td>1.5</td><td>Prepare packing &amp; handling requirements list</td><td>Ihsan (SV)</td><td>23 Oct</td></tr>
+      <tr><td>1.6</td><td>Review move plan with Anizam (Turcomp)</td><td>Bashirun Che</td><td>23 Oct</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="phase">
+  <div class="phase-title">Phase 2: Preparation (24 – 28 Oct 2026)<span class="pct">Led by: Noorfarah Izza</span></div>
+  <table>
+    <thead><tr><th>#</th><th>Task</th><th>Delegated To</th><th>Deadline</th></tr></thead>
+    <tbody>
+      <tr><td>2.1</td><td>Arrange transport (heavy lift / low-loader as needed)</td><td>Noorfarah Izza &amp; Wahyudin Azmi</td><td>26 Oct</td></tr>
+      <tr><td>2.2</td><td>Procure packing materials &amp; transit insurance</td><td>Noorfarah Izza (Procurement Mgr)</td><td>26 Oct</td></tr>
+      <tr><td>2.3</td><td>Pack &amp; label all items per inventory list</td><td>Hammam &amp; Ihsan (SV)</td><td>27 Oct</td></tr>
+      <tr><td>2.4</td><td>Prepare Pengkalan Balak Yard to receive items</td><td>Turcomp (Wan Kamarudin)</td><td>28 Oct</td></tr>
+      <tr><td>2.5</td><td>HSE risk assessment for relocation</td><td>Nizam Kamal (Operation Mgr)</td><td>26 Oct</td></tr>
+      <tr><td>2.6</td><td>Submit final plan to Nik Hazlan for endorsement</td><td>Bashirun Che</td><td>28 Oct</td></tr>
+      <tr><td>2.7</td><td>Budget approval &amp; MD endorsement</td><td>Syamsul Nizam (MD)</td><td>28 Oct</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="page-break"></div>
+
+<div class="phase">
+  <div class="phase-title">Phase 3: Execution (29 Oct – 2 Nov 2026)<span class="pct">Led by: Nizam Kamal</span></div>
+  <table>
+    <thead><tr><th>#</th><th>Task</th><th>Delegated To</th><th>Deadline</th></tr></thead>
+    <tbody>
+      <tr><td>3.1</td><td>Mobilise transport to Kota Masai</td><td>Noorfarah Izza (Procurement Mgr)</td><td>29 Oct</td></tr>
+      <tr><td>3.2</td><td>Load &amp; secure all items</td><td>Ihsan (SV) &amp; Hammam</td><td>29-30 Oct</td></tr>
+      <tr><td>3.3</td><td>Transport to Pengkalan Balak</td><td>Transport contractor</td><td>30-31 Oct</td></tr>
+      <tr><td>3.4</td><td>Unload &amp; place at new yard</td><td>Turcomp team + Ihsan (SV)</td><td>31 Oct – 1 Nov</td></tr>
+      <tr><td>3.5</td><td>Unpack &amp; position per layout plan</td><td>Hammam &amp; Ihsan (SV)</td><td>1-2 Nov</td></tr>
+      <tr><td>3.6</td><td>Site supervision &amp; HSE compliance during move</td><td>Nizam Kamal (Operation Mgr)</td><td>29 Oct – 2 Nov</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="phase">
+  <div class="phase-title">Phase 4: Verification &amp; Handover (3 – 7 Nov 2026)<span class="pct">Led by: Bashirun Che</span></div>
+  <table>
+    <thead><tr><th>#</th><th>Task</th><th>Delegated To</th><th>Deadline</th></tr></thead>
+    <tbody>
+      <tr><td>4.1</td><td>Post-move inventory reconciliation</td><td>Hammam &amp; Ihsan (SV)</td><td>4 Nov</td></tr>
+      <tr><td>4.2</td><td>Asset tag verification at new location</td><td>Hammam (Warehouse Exec)</td><td>5 Nov</td></tr>
+      <tr><td>4.3</td><td>Damage / loss report (if any)</td><td>Bashirun Che &amp; Nizam Kamal</td><td>5 Nov</td></tr>
+      <tr><td>4.4</td><td>Update Asset Register with new locations</td><td>Hammam</td><td>6 Nov</td></tr>
+      <tr><td>4.5</td><td>Handover sign-off to Turcomp</td><td>Bashirun Che + Nik Hazlan (Turcomp)</td><td>7 Nov</td></tr>
+      <tr><td>4.6</td><td>Final acceptance &amp; project closure approval</td><td>Syamsul Nizam (MD)</td><td>7 Nov</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>6. Key Contacts</h2>
+<div class="contact-grid">
+  <div class="contact-card leader">
+    <div class="name">Syamsul Nizam</div>
+    <div class="role">Managing Director</div>
+    <div class="org">SS Rover</div>
+    <div class="email">—</div>
+  </div>
+  <div class="contact-card leader">
+    <div class="name">Nizam Kamal</div>
+    <div class="role">Operation Manager</div>
+    <div class="org">SS Rover</div>
+    <div class="email">—</div>
+  </div>
+  <div class="contact-card leader">
+    <div class="name">Noorfarah Izza</div>
+    <div class="role">Procurement Manager</div>
+    <div class="org">SS Rover</div>
+    <div class="email">—</div>
+  </div>
+  <div class="contact-card leader">
+    <div class="name">Bashirun Che</div>
+    <div class="role">Relocation Lead</div>
+    <div class="org">SS Rover · Under Water Services</div>
+    <div class="email">bashirun.che@ssrover.com</div>
+  </div>
+  <div class="contact-card">
+    <div class="name">Wahyudin Azmi</div>
+    <div class="role">Coordination Support</div>
+    <div class="org">SS Rover</div>
+    <div class="email">wahyuddin.azmi@ssrover.com</div>
+  </div>
+  <div class="contact-card">
+    <div class="name">Hammam</div>
+    <div class="role">Warehouse Executive</div>
+    <div class="org">SS Rover · Yard Operations</div>
+    <div class="email">—</div>
+  </div>
+  <div class="contact-card">
+    <div class="name">Ihsan</div>
+    <div class="role">Supervisor (SV)</div>
+    <div class="org">SS Rover · Yard Operations</div>
+    <div class="email">—</div>
+  </div>
+  <div class="contact-card turcomp">
+    <div class="name">Wan Kamarudin</div>
+    <div class="role">Site Contact</div>
+    <div class="org">Turcomp Engineering Services</div>
+    <div class="email">wankamarudin@turcomp.com</div>
+  </div>
+  <div class="contact-card turcomp">
+    <div class="name">Nik Hazlan</div>
+    <div class="role">Focal PIC / Plan Approver</div>
+    <div class="org">Turcomp Engineering Services</div>
+    <div class="email">nikhazlan@turcomp.com</div>
+  </div>
+  <div class="contact-card turcomp">
+    <div class="name">Anizam</div>
+    <div class="role">Plan Reviewer</div>
+    <div class="org">Turcomp Engineering Services</div>
+    <div class="email">anizam@turcomp.com</div>
+  </div>
+</div>
+
+<div class="page-break"></div>
+
+<h2>7. Risk &amp; Mitigation</h2>
+<table>
+  <thead><tr><th>Risk</th><th>Likelihood</th><th>Impact</th><th>Mitigation</th><th>Owner</th></tr></thead>
+  <tbody>
+    <tr><td>Equipment damage during transport</td><td class="risk-med">Medium</td><td class="risk-high">High</td><td>Proper packing, insurance, experienced transporter</td><td>Noorfarah Izza</td></tr>
+    <tr><td>Inventory discrepancy</td><td class="risk-med">Medium</td><td class="risk-high">High</td><td>Pre &amp; post move verification, photographic records</td><td>Hammam</td></tr>
+    <tr><td>Delay in yard readiness</td><td class="risk-low">Low</td><td class="risk-med">Medium</td><td>Confirm with Turcomp 1 week ahead</td><td>Wan Kamarudin</td></tr>
+    <tr><td>Adverse weather</td><td class="risk-med">Medium</td><td class="risk-low">Low</td><td>Schedule buffer days, covered transport</td><td>Nizam Kamal</td></tr>
+    <tr><td>Loss of documentation</td><td class="risk-low">Low</td><td class="risk-high">High</td><td>Digital backup of all records before move</td><td>Bashirun Che</td></tr>
+    <tr><td>HSE incident during lifting / loading</td><td class="risk-low">Low</td><td class="risk-high">High</td><td>HSE assessment, toolbox briefing, SV supervision on site</td><td>Nizam Kamal</td></tr>
+  </tbody>
+</table>
+
+<h2>8. Budget Estimate</h2>
+<table>
+  <thead><tr><th>Item</th><th>Estimated Cost</th><th>Notes</th><th>Owner</th></tr></thead>
+  <tbody>
+    <tr><td>Transport (low-loader + trailer)</td><td>TBD</td><td>Depending on equipment size</td><td>Noorfarah Izza</td></tr>
+    <tr><td>Packing materials</td><td>TBD</td><td>Crates, pallets, wrapping</td><td>Noorfarah Izza</td></tr>
+    <tr><td>Insurance</td><td>TBD</td><td>Transit insurance</td><td>Noorfarah Izza</td></tr>
+    <tr><td>Manpower (overtime)</td><td>TBD</td><td>Hammam, Ihsan, contractors</td><td>Nizam Kamal</td></tr>
+    <tr><td><strong>Total</strong></td><td><strong>TBD</strong></td><td>Approved by MD</td><td>Syamsul Nizam</td></tr>
+  </tbody>
+</table>
+
+<h2>9. Next Steps</h2>
+<ol>
+  <li><strong>Bashirun Che</strong> — Finalise this draft and share with Anizam for review (by 23 Oct)</li>
+  <li><strong>Hammam &amp; Ihsan (SV)</strong> — Complete physical verification (by 22 Oct)</li>
+  <li><strong>Noorfarah Izza</strong> — Begin transport &amp; materials procurement (by 26 Oct)</li>
+  <li><strong>Nizam Kamal</strong> — Complete HSE risk assessment (by 26 Oct)</li>
+  <li><strong>Wan Kamarudin (Turcomp)</strong> — Confirm Pengkalan Balak Yard readiness (by 28 Oct)</li>
+  <li><strong>Syamsul Nizam (MD)</strong> — Approve budget &amp; endorse final plan (by 28 Oct)</li>
+</ol>
+
+<h2>10. Approval &amp; Sign-off</h2>
+<table class="signoff">
+  <thead><tr><th>Role</th><th>Name</th><th>Signature</th><th>Date</th></tr></thead>
+  <tbody>
+    <tr><td>Managing Director</td><td>Syamsul Nizam</td><td class="sig-line"></td><td></td></tr>
+    <tr><td>Operation Manager</td><td>Nizam Kamal</td><td class="sig-line"></td><td></td></tr>
+    <tr><td>Procurement Manager</td><td>Noorfarah Izza</td><td class="sig-line"></td><td></td></tr>
+    <tr><td>Relocation Lead</td><td>Bashirun Che</td><td class="sig-line"></td><td></td></tr>
+    <tr><td>Turcomp Focal PIC</td><td>Nik Hazlan</td><td class="sig-line"></td><td></td></tr>
+  </tbody>
+</table>
+
+<div class="footer">
+  <p>Document No: MOV-2026-001 · Version 1.1 · Prepared 2026-10-19</p>
+  <p>SS Rover × Turcomp Engineering Services — Under Water Services (UWS) Business Unit</p>
+  <p>This is a draft pending review and endorsement.</p>
+</div>
+
+</body>
+</html>
