@@ -23,6 +23,7 @@ Cleaned dataset, outlier analysis and data-quality reporting for the ROV yard re
 | `DATA_QUALITY_REPORT.md` | 14 data-quality defects with severity, status and fixes applied |
 | `scripts_extract_cost_data.py` | Extraction + per-category reconciliation (regression check) |
 | `scripts_analyze_outliers.py` | IQR / z-score implementation (stdlib only) |
+| `scripts_verify_vault.py` | Vault integrity gate — frontmatter, canvas refs, link resolution, map coverage, dataset reconciliation |
 
 ---
 
@@ -80,12 +81,27 @@ See `DATA_QUALITY_REPORT.md` §2 D1, D7, D12.
 ## Re-running the checks
 
 ```bash
-cd C:/YARD/14_Data
-python scripts_extract_cost_data.py dataset_raw.csv   # extract + reconcile
-python scripts_analyze_outliers.py                    # IQR + z-score
+cd C:/YARD
+
+# vault integrity gate — run from the vault root, exits 1 on any failure
+python 14_Data/scripts_verify_vault.py
+
+# dataset checks
+python 14_Data/scripts_extract_cost_data.py 14_Data/dataset_raw.csv
+python 14_Data/scripts_analyze_outliers.py
 ```
 
-`scripts_extract_cost_data.py` prints a per-category reconciliation table and reports any category whose line items stop summing to its stated subtotal. Run it whenever the costing report changes — it is the control that actually catches this dataset's defect class.
+`scripts_verify_vault.py` checks five things and exits non-zero if any fail:
+
+1. every `.md` file carries YAML frontmatter
+2. `Program_Map.canvas` is valid JSON and every file ref + edge endpoint resolves
+3. every `[[wikilink]]` and `](x.md)` link resolves to a real file
+4. every `.md` file is represented in the canvas
+5. the cleaned dataset reconciles to RM 115,885 with all `rate × qty` checks passing
+
+`scripts_extract_cost_data.py` prints a per-category reconciliation table and reports any
+category whose line items stop summing to its stated subtotal. Run it whenever the costing
+report changes — it is the control that actually catches this dataset's defect class.
 
 Requires Python 3 only; no third-party packages.
 

@@ -1,3 +1,10 @@
+---
+title: ROV Yard Relocation — Repository README
+type: README
+tags: [rov, relocation, pasir-gudang, masjid-tanah, yard]
+updated: 2026-10-19
+---
+
 # ROV Yard Relocation — Pasir Gudang → Masjid Tanah
 
 > Start with the [[00_Index/README|Map of Content]] · visual map in `Program_Map.canvas`
@@ -162,4 +169,4 @@ Internal project documentation — SSRover Sdn Bhd. Not for public distribution.
 
 ---
 
-*Last updated: 2026-10-19*
+*Last updated: 2026-10-19 — reorganised: `13_Deliverables/` and `14_Data/` added; `12_Email_Correspondence/` now holds correspondence only; all 6 files missing YAML frontmatter fixed; canvas and links re-verified at 0 broken.*

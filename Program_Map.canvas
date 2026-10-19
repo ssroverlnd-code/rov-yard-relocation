@@ -39,7 +39,8 @@
 		{"id":"n27","type":"file","file":"14_Data/dataset_cleaned.csv","x":2400,"y":350,"width":400,"height":200,"color":"4"},
 		{"id":"n28","type":"file","file":"14_Data/OUTLIER_REPORT.md","x":2400,"y":700,"width":400,"height":200,"color":"4"},
 		{"id":"n29","type":"file","file":"14_Data/DATA_QUALITY_REPORT.md","x":2400,"y":1050,"width":400,"height":200,"color":"4"},
-		{"id":"g11","type":"group","label":"14 — Data","x":2300,"y":300,"width":600,"height":1000}
+		{"id":"n30","type":"file","file":"14_Data/README.md","x":2400,"y":1400,"width":400,"height":200,"color":"4"},
+		{"id":"g11","type":"group","label":"14 — Data","x":2300,"y":300,"width":600,"height":1300}
 	],
 	"edges":[
 		{"id":"e1","fromNode":"n1","toNode":"n2","label":"overview","fromSide":"bottom","toSide":"top"},
@@ -84,6 +85,7 @@
 		{"id":"e40","fromNode":"n1","toNode":"n27","label":"cleaned dataset","fromSide":"right","toSide":"left"},
 		{"id":"e41","fromNode":"n17","toNode":"n27","label":"extracted from","fromSide":"right","toSide":"left"},
 		{"id":"e42","fromNode":"n27","toNode":"n28","label":"analysed in","fromSide":"bottom","toSide":"top"},
-		{"id":"e43","fromNode":"n27","toNode":"n29","label":"quality checked in","fromSide":"bottom","toSide":"top"}
+		{"id":"e43","fromNode":"n27","toNode":"n29","label":"quality checked in","fromSide":"bottom","toSide":"top"},
+		{"id":"e44","fromNode":"n27","toNode":"n30","label":"indexed by","fromSide":"bottom","toSide":"top"}
 	]
 }

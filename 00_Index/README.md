@@ -55,6 +55,12 @@ updated: 2026-10-19
 | Authority applications (MPPG, MPMT, JPJ) | 🟡 Not started | PM | MEDIUM |
 | New yard lease signing | 🟡 Not started | PM | MEDIUM |
 | Landlord infrastructure negotiation | 🟡 Pending — upside only, not budgeted | PM / Ops | LOW |
+| Origin yard naming — **Kota Masai** vs **Pasir Gudang** | 🔴 OPEN — needs decision | PM | HIGH |
+| Schedule conflict — move plan ends **7 Nov**, master plan **14 Dec 2026** | 🔴 OPEN — needs decision | PM | HIGH |
+| 3 indexed emails missing from disk | 🔴 OPEN — re-export from Outlook | Bashirun | MEDIUM |
+| Contact identity matches (3 unconfirmed) | 🟡 Pending confirmation | PMO | MEDIUM |
+
+> Data-quality defects D1–D14 are tracked in full in [[DATA_QUALITY_REPORT.md\|DATA_QUALITY_REPORT]].
 
 ---
 
@@ -77,4 +83,4 @@ Open `Program_Map.canvas` in Obsidian for the visual knowledge graph.
 
 ---
 
-*Last updated: 2026-10-19*
+*Last updated: 2026-10-19 — index extended to folders 12, 13 and 14; data-quality open decisions added.*

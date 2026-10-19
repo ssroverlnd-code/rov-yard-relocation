@@ -1,3 +1,10 @@
+---
+title: Architecture Decision Records — Index
+type: index
+tags: [rov, relocation, adr, decisions]
+updated: 2026-10-19
+---
+
 # Architecture Decision Records
 
 **Project:** ROV Yard Relocation — Pasir Gudang → Masjid Tanah  

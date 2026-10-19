@@ -1,3 +1,10 @@
+---
+title: ROV Unit Relocation Move Plan
+type: deliverable
+tags: [rov, relocation, move-plan, kota-masai, masjid-tanah]
+updated: 2026-10-19
+---
+
 # ROV Unit Relocation Move Plan
 ## Kota Masai Yard → Pengkalan Balak Yard (Masjid Tanah, Melaka)
 

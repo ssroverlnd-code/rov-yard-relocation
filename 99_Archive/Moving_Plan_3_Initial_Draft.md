@@ -1,3 +1,10 @@
+---
+title: Moving Plan #3 — Resource, Cost & Financial Incursion Report (Initial Draft)
+type: archive
+tags: [rov, relocation, costing, superseded, draft]
+updated: 2026-10-19
+---
+
 # MOVING PLAN #3 — RESOURCE, COST & FINANCIAL INCURSION REPORT
 
 **Prepared for:** Senior Management Approval  

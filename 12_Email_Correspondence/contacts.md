@@ -1,3 +1,10 @@
+---
+title: Contact Directory — Yard Relocation Project
+type: contacts
+tags: [rov, relocation, contacts, turcomp, ssrover, uts]
+updated: 2026-10-19
+---
+
 # Contact Directory — Yard Relocation Project
 
 **Source:** Email circulation on yard relocation (Kota Masai, Pasir Gudang → Pengkalan Balak, Masjid Tanah)

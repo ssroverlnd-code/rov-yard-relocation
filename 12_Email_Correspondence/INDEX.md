@@ -1,3 +1,10 @@
+---
+title: Email Correspondence Index
+type: index
+tags: [rov, relocation, email, correspondence]
+updated: 2026-10-19
+---
+
 # Email Correspondence Index
 
 **Purpose:** All emails related to the yard relocation from Kota Masai to Masjid Tanah (Pengkalan Balak).  
