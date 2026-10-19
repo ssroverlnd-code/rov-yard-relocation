@@ -1,0 +1,47 @@
+# Binary / native files — NOT tracked in this repo
+# These are stored locally or in cloud backup (Google Drive), not on GitHub.
+*.pptx
+*.docx
+*.xlsx
+*.pdf
+*.mp4
+*.mov
+*.avi
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.iso
+*.dmg
+*.exe
+*.msi
+*.dll
+*.so
+*.dylib
+*.ttf
+*.otf
+*.woff
+*.woff2
+
+# Obsidian workspace state (personal UI config, not project content)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/community-plugins.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Obsidian app state (exclude entire folder)
+.obsidian/
