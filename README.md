@@ -73,6 +73,12 @@ Relocation of the ROV yard from **Pasir Gudang, Johor** to **Masjid Tanah, Melak
 │   ├── Plan_3_Hybrid_Costing_Report.md
 │   └── Blue_vs_Red_Costing_Discussion.md
 │
+├── 12_Email_Correspondence/    # Yard-relocation email threads, move plan, contacts
+│   ├── INDEX.md
+│   ├── contacts.md
+│   ├── Move_Plan_ROV_Relocation.md
+│   └── 2026-10-19_*.md
+│
 └── 99_Archive/                 # Superseded plans, drafts, IDEA notes
     ├── IDEA.md
     ├── initial_plan_superseded.md
