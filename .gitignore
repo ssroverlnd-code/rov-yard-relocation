@@ -31,6 +31,10 @@
 *.woff
 *.woff2
 
+# Photos — daily photo evidence stays local (local workspace / Google Drive);
+# the daily report .md files inside Photos/<date>/ ARE tracked.
+Photos/**/*.jpeg
+
 # Obsidian workspace state (personal UI config, not project content)
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json

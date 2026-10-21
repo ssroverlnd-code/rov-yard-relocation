@@ -37,6 +37,7 @@ updated: 2026-10-19
 | [[dataset_cleaned.csv\|14 — Data]] | Cleaned cost dataset — 72 records, reconciles to RM 115,885 |
 | [[OUTLIER_REPORT.md\|14 — Data]] | IQR / z-score outlier analysis |
 | [[DATA_QUALITY_REPORT.md\|14 — Data]] | 14 data-quality defects, severity & status |
+| [[README.md\|Photos]] | Daily photo evidence + daily reports (images local only) |
 | [[IDEA.md\|99 — Archive]] | Project purpose & success criteria |
 | [[initial_plan_superseded.md\|99 — Archive]] | Superseded initial plan |
 | [[Moving_Plan_3_Initial_Draft.md\|99 — Archive]] | Superseded costing draft (RM 48,250) |
@@ -59,6 +60,12 @@ updated: 2026-10-19
 | Schedule conflict — move plan ends **7 Nov**, master plan **14 Dec 2026** | 🔴 OPEN — needs decision | PM | HIGH |
 | 3 indexed emails missing from disk | 🔴 OPEN — re-export from Outlook | Bashirun | MEDIUM |
 | Contact identity matches (3 unconfirmed) | 🟡 Pending confirmation | PMO | MEDIUM |
+| Tagging not started while sorting is underway | 🔴 OPEN — R08/R16/R20 (see `Photos/21.10.2026/21.10.2026 daily report.md`) | Inventory Lead | HIGH |
+| Management confirmation on "not sure" items held aside | 🟡 OPEN | Management / PM | HIGH |
+| OAG write-off items — approval authority | 🟡 OPEN | Finance | MEDIUM |
+| Dismantling / lifting outsource — vendor + 3 quotes | 🟡 OPEN — R02/R14 | PMO Lead / Procurement | HIGH |
+| Forklift rental — rent vs. use, timing | 🟡 OPEN | Operations Lead | MEDIUM |
+| Cabinet disposition (whiteboard `* Cabinet?`) | 🟡 OPEN | Operations Lead | LOW |
 
 > Data-quality defects D1–D14 are tracked in full in [[DATA_QUALITY_REPORT.md\|DATA_QUALITY_REPORT]].
 
@@ -84,3 +91,5 @@ Open `Program_Map.canvas` in Obsidian for the visual knowledge graph.
 ---
 
 *Last updated: 2026-10-19 — index extended to folders 12, 13 and 14; data-quality open decisions added.*
+
+*2026-10-22 — `Photos` index row added; daily-report open items (tagging, held-aside confirmation, OAG write-off, dismantling vendor, forklift, cabinets) raised from the 21.10.2026 report.*

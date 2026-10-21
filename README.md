@@ -97,6 +97,13 @@ Relocation of the ROV yard from **Pasir Gudang, Johor** to **Masjid Tanah, Melak
 │   ├── OUTLIER_REPORT.md
 │   └── DATA_QUALITY_REPORT.md
 │
+├── Photos/                     # Daily photo evidence + daily reports
+│   ├── README.md               # Photo log index & convention
+│   ├── DAILY_REPORT_TEMPLATE.md
+│   └── 21.10.2026/             # One folder per day — photos + daily report
+│       ├── 21.10.2026 daily report.md
+│       └── *.jpeg              # site photos (local only, not tracked)
+│
 └── 99_Archive/                 # Superseded plans, drafts, IDEA notes
     ├── IDEA.md
     ├── initial_plan_superseded.md
@@ -121,6 +128,7 @@ Relocation of the ROV yard from **Pasir Gudang, Johor** to **Masjid Tanah, Melak
 | Cleaned cost dataset (72 records) | `14_Data/dataset_cleaned.csv` | ✅ Complete |
 | Outlier removal report | `14_Data/OUTLIER_REPORT.md` | ✅ Complete |
 | Data quality report | `14_Data/DATA_QUALITY_REPORT.md` | ✅ Complete |
+| Daily photo reports | `Photos/<date>/<date> daily report.md` | 🟢 Started — 21.10.2026 |
 | IMCA ADR-001 | `10_ADR/ADR-001_IMCA_Relocation.md` | 🔴 Open — blocks training equipment moves |
 
 ---
@@ -152,6 +160,8 @@ This repository contains **text-based project documentation only**. The followin
 These binary files reside in the **Google Drive shared folder**:  
 `G:\Shared drives\ROVER GROUP-TRAINING`
 
+**Exception — `Photos/`:** the daily photo evidence lives in `Photos/<DD.MM.YYYY>/` in the local workspace. The images are excluded from git by the `.gitignore` rule `Photos/**/*.jpeg`, but the **daily report `.md` files inside those folders are tracked**.
+
 ---
 
 ## 🛠️ Tech Stack & Tools
@@ -170,3 +180,5 @@ Internal project documentation — SSRover Sdn Bhd. Not for public distribution.
 ---
 
 *Last updated: 2026-10-19 — reorganised: `13_Deliverables/` and `14_Data/` added; `12_Email_Correspondence/` now holds correspondence only; all 6 files missing YAML frontmatter fixed; canvas and links re-verified at 0 broken.*
+
+*2026-10-22 — `Photos/` added: daily photo evidence + daily reports, with `Photos/DAILY_REPORT_TEMPLATE.md` for the recurring routine; `.gitignore` updated so images stay local while the report `.md` files are tracked.*
