@@ -98,9 +98,10 @@ Every project-total figure found across the vault. These are all observations of
 | 114,665 | 0.57 | no | Revised, contingency held at original | Costing Report §5 |
 | **115,885** | 0.66 | no | **Revised estimate (current, v2.0)** | Costing Report §1 |
 | 123,165 | 1.21 | no | Original stated total | Costing Report §5 |
-| 124,065 | 1.28 | no | Original line items, summed | Costing Report §5 |
+| 124,065 | 1.28 | no | Original line items, as written | Costing Report §5 |
+| 126,245 | 1.44 | no | Original estimate — corrected (v2.0) | Costing Report §5 |
 
-**Zero records flagged.** The two historical archives add two more figures for context — RM 48,250 and RM 58,550 from `99_Archive/Moving_Plan_3_Initial_Draft.md` — which would widen the spread to **RM 48,250 – 124,065**.
+**Zero records flagged.** The two historical archives add two more figures for context — RM 48,250 and RM 58,550 from `99_Archive/Moving_Plan_3_Initial_Draft.md` — which would widen the spread to **RM 48,250 – 126,245**.
 
 ### Why the method failed here
 

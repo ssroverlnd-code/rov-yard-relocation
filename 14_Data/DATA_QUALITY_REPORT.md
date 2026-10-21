@@ -49,7 +49,7 @@ Two different names are used for the same origin yard.
 
 ### D3 — Nine competing project-total figures (SEVERITY: HIGH)
 
-Nine different values for one quantity, spanning RM 85,000 – RM 124,065 (stdev RM 13,226). Adding the archived draft's RM 48,250 and RM 58,550 widens the range to RM 48,250 – RM 124,065 — a **2.6× spread on the same deliverable**. Full table in `OUTLIER_REPORT.md` §3. Four of these are now explicitly marked superseded in the costing report; the remainder need retiring from circulation.
+Nine different values for one quantity, spanning RM 85,000 – RM 126,245 (stdev RM 13,226). Adding the archived draft's RM 48,250 and RM 58,550 widens the range to RM 48,250 – RM 126,245 — a **2.6× spread on the same deliverable**. Full table in `OUTLIER_REPORT.md` §3. Four of these are now explicitly marked superseded in the costing report; the remainder need retiring from circulation.
 
 ### D4 — Duplicate record (SEVERITY: HIGH — already fixed)
 

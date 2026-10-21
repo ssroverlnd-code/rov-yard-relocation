@@ -24,8 +24,8 @@ This report tabulates every resource, estimated expenditure and contingency requ
 
 | **Item** | **Amount (RM)** |
 |---|---:|
-| Original detailed estimate (as first written — sum of its own line items) | 124,065 |
-| Adjustments agreed at the Blue vs Red costing review | −8,180 |
+| Original estimate — corrected (see §5) | 126,245 |
+| Adjustments agreed at the Blue vs Red costing review | −10,360 |
 | **Revised estimate submitted for approval** | **115,885** |
 
 **Basis of preparation**
@@ -35,7 +35,7 @@ This report tabulates every resource, estimated expenditure and contingency requ
 - The duplicate inventory-team budget (B1 vs M1) is removed once, per Resolution 1 of the review.
 - Risk IDs follow the canonical register in `06_Risk/risk_register.md`.
 
-> **Earlier figures are superseded.** RM 99,290 (draft summary), RM 123,165 (stated original total) and RM 103,265 (stated revised total) were all internally inconsistent — see §5 for the reconciliation.
+> **Earlier figures are superseded.** RM 99,290 (draft summary), RM 123,165 (stated original total), RM 124,065 (original as first written) and RM 103,265 (stated revised total) were all internally inconsistent — see §5 for the reconciliation.
 
 ---
 
@@ -56,9 +56,9 @@ This report tabulates every resource, estimated expenditure and contingency requ
 | K. Permits, Compliance & Authorities | 2,050 | +500 | 2,550 |
 | L. IT & Data Management | 1,800 | 0 | 1,800 |
 | M. Labour — Internal Team | 24,800 | −10,000 | 14,800 |
-| N. Contingency Provision | 10,365 | +1,920 | 12,285 |
+| N. Contingency Provision | 12,545 | −260 | 12,285 |
 | O. Miscellaneous & Unforeseen | 1,250 | −500 | 750 |
-| **TOTAL** | **124,065** | **−8,180** | **115,885** |
+| **TOTAL** | **126,245** | **−10,360** | **115,885** |
 
 ---
 
@@ -75,8 +75,8 @@ Adjustments agreed at the Blue vs Red costing review, 19 October 2026. Each is a
 | 5 | IMCA compliance budget increased | K6 | +500 | Re-approval and documentation could exceed the RM 500 originally allowed. |
 | 6 | Weather delay provision increased | N2 | +700 | Monsoon-season move window; RM 800 was understated. |
 | 7 | Incident response fund removed | O2 | −500 | Absorbed into the 10% contingency. |
-| 8 | Contingency recomputed on revised base | N1 | +1,220 | N1 is defined as 10% of A–M; the revised A–M base is RM 102,850. |
-| | **Net** | | **−8,180** | |
+| 8 | Contingency recomputed on revised base | N1 | −960 | N1 is defined as 10% of A–M; the revised A–M base is RM 102,850 → RM 10,285. |
+| | **Net** | | **−10,360** | |
 
 ---
 
@@ -255,8 +255,10 @@ Three figures circulated before this rerun. All were internally inconsistent.
 
 | | RM |
 |---|---:|
-| Original line items, summed correctly | 124,065 |
-| Net adjustments applied | −8,180 |
+| Original line items, as first written | 124,065 |
+| N1 mis-stated — RM 9,065 written vs RM 11,245 correct (10% of A–M) | +2,180 |
+| **Original estimate — corrected** | **126,245** |
+| Net adjustments applied | −10,360 |
 | **Revised estimate** | **115,885** |
 
 > If the 10% contingency is held at the original RM 9,065 rather than recomputed, the total is **RM 114,665**. This report recomputes it, because the line's own definition requires it.

@@ -11,7 +11,7 @@ updated: 2026-10-19
 **Participants:**  
 - **Blue Team** — Governance, compliance, process perspective  
 - **Red Team** — Operations, execution, vendor perspective  
-**Subject:** Review of Plan 3 (Hybrid) Costing Report (RM 124,065 original / RM 115,885 revised)  
+**Subject:** Review of Plan 3 (Hybrid) Costing Report (RM 126,245 original corrected / RM 115,885 revised)  
 **Date:** 19 October 2026  
 **Reference:** `11_Costing/Plan_3_Hybrid_Costing_Report.md`
 
@@ -211,7 +211,7 @@ The PM facilitated the following resolutions, with both teams conceding on key p
 
 ## 6. REVISED COSTING SUMMARY
 
-> **Corrected on rerun (19 Oct 2026).** The table below was re-derived from the line items in `Plan_3_Hybrid_Costing_Report.md` after the review. Two errors in the original table were fixed: Category B had the inventory-team removal applied **twice** (B −10,000 *and* M −10,000), and the 10% contingency was not recomputed on the revised base. The corrected revised total is **RM 115,885**.
+> **Corrected on rerun (19 Oct 2026).** The table below was re-derived from the line items in `Plan_3_Hybrid_Costing_Report.md` after the review. Three errors were fixed: Category B had the inventory-team removal applied **twice** (B −10,000 *and* M −10,000); the 10% contingency was not recomputed on the revised base; and the original N1 was mis-stated (RM 9,065 written vs RM 11,245 correct = 10% of A–M), so the corrected original is **RM 126,245**, not RM 124,065. The corrected revised total is **RM 115,885**.
 
 | Category | Original (RM) | Adjustment (RM) | Revised (RM) |
 |---|---:|---:|---:|
@@ -228,9 +228,9 @@ The PM facilitated the following resolutions, with both teams conceding on key p
 | K. Permits, Compliance & Authorities | 2,050 | +500 | 2,550 |
 | L. IT & Data Management | 1,800 | 0 | 1,800 |
 | M. Labour — Internal Team | 24,800 | –10,000 | 14,800 |
-| N. Contingency Provision | 10,365 | +1,920 | 12,285 |
+| N. Contingency Provision | 12,545 | −260 | 12,285 |
 | O. Miscellaneous & Unforeseen | 1,250 | –500 | 750 |
-| **TOTAL** | **124,065** | **–8,180** | **115,885** |
+| **TOTAL** | **126,245** | **−10,360** | **115,885** |
 
 ---
 
