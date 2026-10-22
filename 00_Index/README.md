@@ -22,7 +22,7 @@ updated: 2026-10-22
 | [[stage_details.md\|02 — Stage Details]] | 10-stage detail sheets with checklists |
 | [[inventory_classification.md\|03 — Inventory]] | A/B/C/D classification guide, tagging standard |
 | [[stakeholder_register.md\|04 — Stakeholders]] | Internal teams, vendors, authorities, escalation |
-| [[gantt_timeline.md\|05 — Timeline]] | 8-week Gantt, milestones, critical path |
+| [[gantt_timeline.md\|05 — Timeline]] | 8-week Gantt, milestones, critical path — progress marked to 22 Oct (M1 at risk) |
 | [[risk_register.md\|06 — Risk]] | 22 scored risks, mitigations, incident response |
 | [[communication_plan.md\|07 — Communication]] | Channels, meetings, reporting templates |
 | [[proposed_yard_layout.md\|08 — Layout]] | 5-zone yard layout, security infrastructure |
@@ -36,6 +36,7 @@ updated: 2026-10-22
 | [[INDEX.md\|12 — Correspondence]] | Relocation email index & contacts (21 contacts, 4 orgs) |
 | [[Move_Plan_ROV_Relocation.md\|13 — Deliverables]] | ROV relocation move plan (print-ready HTML version alongside) |
 | [[Team_Todo_Checklist.md\|13 — Deliverables]] | Team to-do checklist — 22 Oct deadlines, Week 1 close-out, D1–D10 tagging sequence (printable HTML alongside) |
+| [[Team_Todo_Checklist_23.10.2026.md\|13 — Deliverables]] | Team to-do checklist — Day 5, 23 Oct: Week 1 close-out, carried-over items, R22 action |
 | Daily progress reports | `13_Deliverables/Daily_Progress_Report_21.10.2026.html` · `…22.10.2026.html` — circulation copies with photos embedded |
 | [[dataset_cleaned.csv\|14 — Data]] | Cleaned cost dataset — 72 records, reconciles to RM 115,885 |
 | [[OUTLIER_REPORT.md\|14 — Data]] | IQR / z-score outlier analysis |
@@ -104,3 +105,5 @@ Open `Program_Map.canvas` in Obsidian for the visual knowledge graph.
 *2026-10-22 — tagging amended from item level to **package level**, applied after sorting (5S). Recorded as [[ADR-002_Package_Tagging.md\|ADR-002]]; master plan, stage details, inventory guide, risk register (R21 added) and the issued move plan updated.*
 
 *2026-10-22 — 22.10.2026 daily progress report written from the day's raw notes and 15 site photos (tool sort complete, warehouse racks A & B cleared, yard walkthrough partial, package tagging still not started); **R22** (limited manpower) registered; ADR-002 split into its own index row.*
+
+*2026-10-22 — Gantt updated with actuals to the end of Day 4: Week 1 status table, schedule variance (roofed-yard deviation, tagging two days behind) and milestone status; **M1 at risk**.*

@@ -504,6 +504,15 @@
 			"y":1400,
 			"width":400,
 			"height":200
+		},
+		{
+			"id":"n41",
+			"type":"file",
+			"file":"13_Deliverables/Team_Todo_Checklist_23.10.2026.md",
+			"x":1700,
+			"y":2000,
+			"width":400,
+			"height":200
 		}
 	],
 	"edges":[
@@ -1074,6 +1083,22 @@
 			"label":"move plan status",
 			"fromSide":"left",
 			"toSide":"right"
+		},
+		{
+			"id":"e72",
+			"fromNode":"n39",
+			"toNode":"n41",
+			"label":"raised items",
+			"fromSide":"bottom",
+			"toSide":"top"
+		},
+		{
+			"id":"e73",
+			"fromNode":"n37",
+			"toNode":"n41",
+			"label":"next day",
+			"fromSide":"bottom",
+			"toSide":"top"
 		}
 	]
 }

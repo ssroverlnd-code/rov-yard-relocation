@@ -126,7 +126,7 @@ Relocation of the ROV yard from **Pasir Gudang, Johor** to **Masjid Tanah, Melak
 | Deliverable | Path | Status |
 |-------------|------|--------|
 | Master Moving Plan | `01_Planning/master_moving_plan.md` | ✅ Complete |
-| 8-Week Gantt Timeline | `05_Timeline/gantt_timeline.md` | ✅ Complete |
+| 8-Week Gantt Timeline | `05_Timeline/gantt_timeline.md` | ✅ Complete — actuals marked to 22.10.2026 |
 | Risk Register (22 risks) | `06_Risk/risk_register.md` | ✅ Complete |
 | Stakeholder Register | `04_Stakeholders/stakeholder_register.md` | ✅ Complete |
 | Inventory Classification | `03_Inventory/inventory_classification.md` | ✅ Complete |
@@ -139,7 +139,7 @@ Relocation of the ROV yard from **Pasir Gudang, Johor** to **Masjid Tanah, Melak
 | Data quality report | `14_Data/DATA_QUALITY_REPORT.md` | ✅ Complete |
 | Daily progress reports | `Photos/<date>/<date> daily progress report.md` | 🟢 21.10.2026 · 22.10.2026 |
 | Daily progress report (circulation) | `13_Deliverables/Daily_Progress_Report_<date>.html` | 🟢 21.10.2026 · 22.10.2026 |
-| Team to-do checklist | `13_Deliverables/Team_Todo_Checklist.md` / `.html` | 🟢 Started — 22.10.2026 |
+| Team to-do checklist | `13_Deliverables/Team_Todo_Checklist_<date>.md` / `.html` | 🟢 22.10.2026 · 23.10.2026 |
 | IMCA ADR-001 | `10_ADR/ADR-001_IMCA_Relocation.md` | 🔴 Open — blocks training equipment moves |
 
 ---
