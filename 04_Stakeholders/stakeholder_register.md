@@ -12,7 +12,7 @@ updated: 2026-10-19
 | Team | Leader | Members | Responsibility | Contact |
 |------|--------|---------|----------------|---------|
 | **Project Management Office (PMO)** | [TBD — PMO Lead] | 2–3 | Overall coordination, timeline tracking, stakeholder communication, budget control, authority liaison | [TBD] |
-| **Inventory & Classification** | [TBD — Inventory Lead] | 3–4 | Physical count, tagging, classification, photo documentation, inventory spreadsheet | [TBD] |
+| **Inventory & Classification** | [TBD — Inventory Lead] | 3–4 | Physical count, 5S sorting, package tagging, classification, photo documentation, inventory spreadsheet | [TBD] |
 | **Operations** | [TBD — Operations Lead] | 3–5 | New yard layout implementation, fencing, lighting, utilities, salvage/disposal | [TBD] |
 | **Lifting & Rigging** | [TBD — Rigging Supervisor] | 2–4 | Crane operations, lift plans, safe lifting of Class B items | [TBD] |
 | **Transport & Logistics** | [TBD — Logistics Coordinator] | 2–3 | Vehicle bookings, route planning, manifests, JPJ permits | [TBD] |

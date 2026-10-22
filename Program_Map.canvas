@@ -164,7 +164,7 @@
 			"id":"n17",
 			"type":"file",
 			"file":"11_Costing/Plan_3_Hybrid_Costing_Report.md",
-			"x":500,
+			"x":900,
 			"y":1750,
 			"width":400,
 			"height":200,
@@ -174,7 +174,7 @@
 			"id":"n18",
 			"type":"file",
 			"file":"11_Costing/Blue_vs_Red_Costing_Discussion.md",
-			"x":1100,
+			"x":1500,
 			"y":1750,
 			"width":400,
 			"height":200,
@@ -261,14 +261,14 @@
 			"label":"10 — ADR / Decisions",
 			"x":-800,
 			"y":1700,
-			"width":1200,
+			"width":1500,
 			"height":300
 		},
 		{
 			"id":"g7",
 			"type":"group",
 			"label":"11 — Costing",
-			"x":400,
+			"x":800,
 			"y":1700,
 			"width":1200,
 			"height":300
@@ -412,7 +412,7 @@
 		{
 			"id":"n32",
 			"type":"file",
-			"file":"Photos/DAILY_REPORT_TEMPLATE.md",
+			"file":"Photos/DAILY_PROGRESS_REPORT_TEMPLATE.md",
 			"x":2300,
 			"y":2100,
 			"width":400,
@@ -422,7 +422,7 @@
 		{
 			"id":"n33",
 			"type":"file",
-			"file":"Photos/21.10.2026/21.10.2026 daily report.md",
+			"file":"Photos/21.10.2026/21.10.2026 daily progress report.md",
 			"x":2300,
 			"y":2450,
 			"width":400,
@@ -447,6 +447,36 @@
 			"width":400,
 			"height":200,
 			"color":"5"
+		},
+		{
+			"id":"n35",
+			"type":"file",
+			"file":"13_Deliverables/Daily_Progress_Report_21.10.2026.html",
+			"x":3000,
+			"y":1050,
+			"width":400,
+			"height":200,
+			"color":"1"
+		},
+		{
+			"id":"n36",
+			"type":"file",
+			"file":"10_ADR/ADR-002_Package_Tagging.md",
+			"x":300,
+			"y":1750,
+			"width":400,
+			"height":200,
+			"color":"1"
+		},
+		{
+			"id":"n37",
+			"type":"file",
+			"file":"13_Deliverables/Team_Todo_Checklist.md",
+			"x":1700,
+			"y":1700,
+			"width":400,
+			"height":200,
+			"color":"1"
 		}
 	],
 	"edges":[
@@ -871,6 +901,78 @@
 			"fromNode":"n34",
 			"toNode":"n33",
 			"label":"raw source for",
+			"fromSide":"left",
+			"toSide":"right"
+		},
+		{
+			"id":"e54",
+			"fromNode":"n35",
+			"toNode":"n33",
+			"label":"circulation copy of",
+			"fromSide":"left",
+			"toSide":"right"
+		},
+		{
+			"id":"e55",
+			"fromNode":"n1",
+			"toNode":"n36",
+			"label":"ADR-002",
+			"fromSide":"right",
+			"toSide":"left"
+		},
+		{
+			"id":"e56",
+			"fromNode":"n36",
+			"toNode":"n3",
+			"label":"amends stage 2",
+			"fromSide":"left",
+			"toSide":"right"
+		},
+		{
+			"id":"e57",
+			"fromNode":"n36",
+			"toNode":"n6",
+			"label":"package tagging standard",
+			"fromSide":"left",
+			"toSide":"right"
+		},
+		{
+			"id":"e58",
+			"fromNode":"n36",
+			"toNode":"n9",
+			"label":"adds R21",
+			"fromSide":"left",
+			"toSide":"right"
+		},
+		{
+			"id":"e59",
+			"fromNode":"n37",
+			"toNode":"n23",
+			"label":"deliverable set",
+			"fromSide":"top",
+			"toSide":"bottom"
+		},
+		{
+			"id":"e60",
+			"fromNode":"n37",
+			"toNode":"n3",
+			"label":"from master plan",
+			"fromSide":"left",
+			"toSide":"right"
+		},
+		{
+			"id":"e61",
+			"fromNode":"n37",
+			"toNode":"n5",
+			"label":"from stage details",
+			"fromSide":"left",
+			"toSide":"right"
+		},
+		{
+			"id":"e62",
+			"fromNode":"n37",
+			"toNode":"n9",
+			"label":"risk actions",
 			"fromSide":"left",
 			"toSide":"right"
 		}

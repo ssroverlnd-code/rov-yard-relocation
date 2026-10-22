@@ -58,24 +58,26 @@ Team Lead → PMO Lead → Project Sponsor
 ## Stage 2 Detail Sheet — Inventory & Classification (Weeks 1–2)
 
 ## Objective
-100% of items physically counted, tagged, classified, and recorded. Nothing moves without a tag.
+100% of items physically counted, classified and recorded. Items are sorted first, then packed and tagged at package level — nothing moves without a package tag and a contents list. The sequence follows 5S: **Sort → Set in order → Shine → Standardise → Sustain**.
 
 ## Daily Plan
 
 | Day | Activity | Output |
 |-----|----------|--------|
-| D1–D2 | Warehouse inventory — tag and classify all items | WH items tagged |
-| D3–D4 | Roofed yard inventory — priority: copper cables, tools | RY items tagged |
-| D5–D6 | Open yard inventory — heavy items, measure/dimensions | OY items tagged |
-| D7 | Office area inventory — furniture, cabinets, IT | OF items tagged |
-| D8–D9 | Class A photo documentation and condition report | Photo log complete |
+| D1–D2 | Warehouse sort, then pack and tag packages | WH packages tagged with contents lists |
+| D3–D4 | Roofed yard sort — priority: copper cables, tools | RY packages tagged |
+| D5–D6 | Open yard sort — heavy items, measure/dimensions | OY packages tagged |
+| D7 | Office sort — furniture, cabinets, IT | OF packages tagged |
+| D8–D9 | Class A packages sealed, photographed and condition-noted | Photo log complete |
 | D10 | Salvage/disposal list compiled and submitted for approval | Salvage list approved |
 
 ## Quality Checks
 
-- [ ] Every item has a unique tag
-- [ ] Every item has a class (A/B/C/D)
-- [ ] Every Class A item has a photo
+- [ ] Every package has a tag in the `[ZONE]-[CLASS]-PKG-[SEQ]` format
+- [ ] Every package has a contents list fixed to it
+- [ ] Every item is recorded in the inventory against a package tag
+- [ ] Every package has a class (A/B/C/D)
+- [ ] Every Class A package is sealed and photographed
 - [ ] Inventory spreadsheet is complete and backed up
 - [ ] Salvage list reviewed and approved by Operations Lead
 

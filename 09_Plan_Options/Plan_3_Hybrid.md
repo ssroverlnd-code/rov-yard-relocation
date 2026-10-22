@@ -40,14 +40,16 @@ updated: 2026-10-19
 
 ## 3. Inventory Classification (Blue's 6 Categories + Red's Tagging)
 
-| Class | Examples | Tag Prefix | Handling |
-|-------|----------|-----------|----------|
-| **A — High Value** | ROV electronics, sensors, copper, specialised tools | [ZONE]-A-[SEQ] | Sealed crates, security escort, secure cage |
-| **B — Heavy / Oversized** | ROV frames, machinery, skids | [ZONE]-B-[SEQ] | Engineered lift plan, low-loader, crane |
-| **C — General Equipment** | Racks, workbenches, workshop items | [ZONE]-C-[SEQ] | Standard transport |
-| **D — Loose Items** | Parts, fittings, fasteners, consumables | [ZONE]-D-[SEQ] | Count, label, bin and box |
-| **E — Documents / IT** | Filing cabinets, computers, records | [ZONE]-E-[SEQ] | Controlled custody, data backup |
-| **F — Disposal / Scrap** | Furniture, obsolete, damaged | [ZONE]-F-[SEQ] | Technical owner confirms, authorized sale/dispose |
+| Class | Examples | Package Tag Prefix | Handling |
+|-------|----------|--------------------|----------|
+| **A — High Value** | ROV electronics, sensors, copper, specialised tools | [ZONE]-A-PKG-[SEQ] | Sealed crates, security escort, secure cage |
+| **B — Heavy / Oversized** | ROV frames, machinery, skids | [ZONE]-B-PKG-[SEQ] | Engineered lift plan, low-loader, crane |
+| **C — General Equipment** | Racks, workbenches, workshop items | [ZONE]-C-PKG-[SEQ] | Standard transport |
+| **D — Loose Items** | Parts, fittings, fasteners, consumables | [ZONE]-D-PKG-[SEQ] | Count, label, bin and box |
+| **E — Documents / IT** | Filing cabinets, computers, records | [ZONE]-E-PKG-[SEQ] | Controlled custody, data backup |
+| **F — Disposal / Scrap** | Furniture, obsolete, damaged | [ZONE]-F-PKG-[SEQ] | Technical owner confirms, authorized sale/dispose |
+
+**The tagging unit is the package** (sealed crate, bin, pallet, wrapped bundle or container), applied after the sort — 5S: **Sort → Set in order**. Item-level detail goes on the package's contents list and in the inventory spreadsheet, not on a physical tag.
 
 **Condition codes:** SVC / REP / UNS / DAM / UNK  
 **Rule:** Do not dispose solely on appearance — technical owner must confirm.
@@ -59,7 +61,7 @@ updated: 2026-10-19
 | Week | Focus | Key Activities |
 |------|-------|----------------|
 | **W1** | Foundation + Security + Inventory start | PM appointed, immediate security, kickoff, walkthrough, first 5 days detail, inventory starts |
-| **W2** | Inventory complete + Stakeholders | 6-category classification, barcode tagging, Class A photos, vendor quotes, authority applications, landlord lease |
+| **W2** | Inventory complete + Stakeholders | 6-category classification, package tagging after the sort, Class A package photos, vendor quotes, authority applications, landlord lease |
 | **W3** | Contracts + New yard prep + Layout approval | Vendor contracts signed, authority applications submitted, new yard survey + layout approved, fence/cage/racking, furniture sort |
 | **W4** | Valuable items move + Heavy begins | **Gate 3 passed** → Class A convoy with security escort, heavy items begin (crane lifts), furniture sale |
 | **W5** | Heavy + Office equipment | Heavy items continue, IT + cabinets move, IT reinstall, consumables packing |
@@ -96,7 +98,7 @@ updated: 2026-10-19
 
 **Blue:** Section-by-section stocktake, 6 categories, condition codes, discrepancy register, technical confirmation for disposals.
 
-**Red adds:** Barcode/QR tagging with `[ZONE]-[CLASS]-[SEQ]`, photo documentation for Class A, inventory spreadsheet with full columns, variance report against last known records.
+**Red adds:** Package tagging with `[ZONE]-[CLASS]-PKG-[SEQ]` and a contents list on every package, photo documentation for Class A packages, inventory spreadsheet with full columns, variance report against last known records. Tagging follows the sort — 5S: **Sort → Set in order**.
 
 **🔒 Gate 2:** Inventory baseline and disposal candidates approved by Yard Supervisor, Finance, PM.
 

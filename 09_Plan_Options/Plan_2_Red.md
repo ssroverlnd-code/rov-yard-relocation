@@ -50,6 +50,8 @@ Treat this as a **military-style staged operation** — every stage has a checkl
 **Zone codes:** WH (Warehouse) · RY (Roofed Yard) · OY (Open Yard) · OF (Office)  
 **Condition codes:** SVC / REP / OBS / DAM / UNK
 
+> **Amended by ADR-002 (2026-10-22):** tagging is now applied at **package level** after sorting, not per item — `[ZONE]-[CLASS]-PKG-[SEQ]` with a contents list on every package. This page is retained as the source plan; the current standard is `03_Inventory/inventory_classification.md` and `10_ADR/ADR-002_Package_Tagging.md`.
+
 ---
 
 ## 4. Eight-Week Schedule

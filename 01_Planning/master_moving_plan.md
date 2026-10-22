@@ -33,17 +33,17 @@ updated: 2026-10-19
 
 ## Stage 2 — Inventory & Classification (Weeks 1–2, overlaps Stage 1)
 
-**Objective:** Every item classified by value, size/weight, and security category. This is the single most important stage — nothing moves without a tag.
+**Objective:** Every item classified by value, size/weight, and security category. Items are **sorted first, then packed and tagged at package level** — the 5S sequence (Sort → Set in order). This is the single most important stage: nothing moves without a package tag and a contents list.
 
 | # | Task | Owner | Deliverable |
 |---|------|-------|-------------|
-| 2.1 | Physical inventory of all items — tag with barcode/QR label | Inventory Lead + team | Full inventory list (Excel/Sheets) |
+| 2.1 | Physical inventory of all items; sort wanted from unwanted, then pack and tag at package level (5S: Sort → Set in order) | Inventory Lead + team | Full inventory list (Excel/Sheets) + tagged packages |
 | 2.2 | Classify each item: **A** = High Value / **B** = Heavy / **C** = Consumable / **D** = Office/Furniture | Inventory Lead | Classification column in inventory |
-| 2.3 | Photograph and condition-note every Class A (valuable) item | Inventory Lead | Condition report with photos |
+| 2.3 | Photograph and condition-note every Class A (valuable) package — sealed, with the tag visible | Inventory Lead | Condition report with photos |
 | 2.4 | Verify quantities of copper cables, hand tools, metal stock against last known records | Operations Lead | Variance report |
 | 2.5 | Flag items for salvage/disposal (broken, obsolete, unserviceable) | Operations Lead | Salvage list for approval |
 
-**Exit Gate:** 100% of items inventoried and classified · Class A items photo-documented
+**Exit Gate:** 100% of items inventoried and classified · 100% of packages tagged with contents lists · Class A packages sealed and photo-documented
 
 ---
 
@@ -231,7 +231,7 @@ Week 8:  [Stage 10 — Close-out]
 
 | If This Is Delayed... | ...This Cannot Start |
 |------------------------|----------------------|
-| Inventory classification (Stage 2) | Any move stage — nothing moves untagged |
+| Package tagging (Stage 2) | Any move stage — nothing moves without a package tag and contents list |
 | Authority permits (Stage 3D) | Heavy items move (oversized load permits) |
 | New yard secure cage (Stage 4.2) | Valuable items move (Stage 6) |
 | Vendor contracts (Stage 3B) | All transport stages |

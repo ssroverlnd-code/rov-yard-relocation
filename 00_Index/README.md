@@ -29,15 +29,15 @@ updated: 2026-10-19
 | [[Plan_1_Blue.md\|09 — Plan Options]] | Plan 1 — Blue Team (formal engineering transfer) |
 | [[Plan_2_Red.md\|09 — Plan Options]] | Plan 2 — Red Team (operational execution) |
 | [[Plan_3_Hybrid.md\|09 — Plan Options]] | Plan 3 — Hybrid (**adopted**) |
-| [[ADR-001_IMCA_Relocation.md\|10 — ADR]] | IMCA implications — CRITICAL, pending |
+| [[ADR-001_IMCA_Relocation.md\|10 — ADR]] | IMCA implications — CRITICAL, pending · [[ADR-002_Package_Tagging.md\|ADR-002]] package-level tagging (5S) — accepted |
 | [[Plan_3_Hybrid_Costing_Report.md\|11 — Costing]] | Full resource & cost table — RM 115,885 revised |
 | [[Blue_vs_Red_Costing_Discussion.md\|11 — Costing]] | Blue vs Red team costing discussion & resolution |
 | [[INDEX.md\|12 — Correspondence]] | Relocation email index & contacts (21 contacts, 4 orgs) |
-| [[Move_Plan_ROV_Relocation.md\|13 — Deliverables]] | ROV relocation move plan (print-ready HTML version alongside) |
+| [[Move_Plan_ROV_Relocation.md\|13 — Deliverables]] | ROV relocation move plan (print-ready HTML version alongside) + daily progress reports |
 | [[dataset_cleaned.csv\|14 — Data]] | Cleaned cost dataset — 72 records, reconciles to RM 115,885 |
 | [[OUTLIER_REPORT.md\|14 — Data]] | IQR / z-score outlier analysis |
 | [[DATA_QUALITY_REPORT.md\|14 — Data]] | 14 data-quality defects, severity & status |
-| [[README.md\|Photos]] | Daily photo evidence + daily reports (images local only) |
+| [[README.md\|Photos]] | Daily photo evidence + daily progress reports (images local only) |
 | [[IDEA.md\|99 — Archive]] | Project purpose & success criteria |
 | [[initial_plan_superseded.md\|99 — Archive]] | Superseded initial plan |
 | [[Moving_Plan_3_Initial_Draft.md\|99 — Archive]] | Superseded costing draft (RM 48,250) |
@@ -60,7 +60,7 @@ updated: 2026-10-19
 | Schedule conflict — move plan ends **7 Nov**, master plan **14 Dec 2026** | 🔴 OPEN — needs decision | PM | HIGH |
 | 3 indexed emails missing from disk | 🔴 OPEN — re-export from Outlook | Bashirun | MEDIUM |
 | Contact identity matches (3 unconfirmed) | 🟡 Pending confirmation | PMO | MEDIUM |
-| Tagging not started while sorting is underway | 🔴 OPEN — R08/R16/R20 (see `Photos/21.10.2026/21.10.2026 daily report.md`) | Inventory Lead | HIGH |
+| Package tagging not started while sorting is underway | 🔴 OPEN — R08/R16/R20/R21 (see `Photos/21.10.2026/21.10.2026 daily progress report.md`) | Inventory Lead | HIGH |
 | Management confirmation on "not sure" items held aside | 🟡 OPEN | Management / PM | HIGH |
 | OAG write-off items — approval authority | 🟡 OPEN | Finance | MEDIUM |
 | Dismantling / lifting outsource — vendor + 3 quotes | 🟡 OPEN — R02/R14 | PMO Lead / Procurement | HIGH |
@@ -93,3 +93,5 @@ Open `Program_Map.canvas` in Obsidian for the visual knowledge graph.
 *Last updated: 2026-10-19 — index extended to folders 12, 13 and 14; data-quality open decisions added.*
 
 *2026-10-22 — `Photos` index row added; daily-report open items (tagging, held-aside confirmation, OAG write-off, dismantling vendor, forklift, cabinets) raised from the 21.10.2026 report.*
+
+*2026-10-22 — tagging amended from item level to **package level**, applied after sorting (5S). Recorded as [[ADR-002_Package_Tagging.md\|ADR-002]]; master plan, stage details, inventory guide, risk register (R21 added) and the issued move plan updated.*

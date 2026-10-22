@@ -17,6 +17,7 @@ updated: 2026-10-19
 | ADR | Title | Status | Priority | Owner |
 |-----|-------|--------|----------|-------|
 | [ADR-001](ADR-001_IMCA_Relocation.md) | IMCA Implications — ROV Training Establishment Relocation | OPEN — Pending | CRITICAL | Training Management |
+| [ADR-002](ADR-002_Package_Tagging.md) | Package-Level Tagging — Sort, Then Tag (5S) | ACCEPTED | HIGH | Inventory Lead |
 
 ---
 

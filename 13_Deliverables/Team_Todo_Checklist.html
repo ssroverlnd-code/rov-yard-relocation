@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Team To-Do Checklist — ROV Yard Relocation — 22 October 2026</title>
+<style>
+  :root {
+    --primary: #1a3a5c;
+    --accent: #c0392b;
+    --light: #f4f6f8;
+    --border: #bdc3c7;
+    --text: #2c3e50;
+    --success: #27ae60;
+    --warn: #e67e22;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+    color: var(--text);
+    line-height: 1.5;
+    max-width: 210mm;
+    margin: 0 auto;
+    padding: 18mm 16mm;
+    background: #fff;
+  }
+  @media print {
+    body { padding: 0; max-width: none; }
+    .no-print { display: none; }
+    @page { size: A4; margin: 14mm; }
+    h2 { page-break-after: avoid; }
+    h3 { page-break-after: avoid; }
+    table, li { page-break-inside: avoid; }
+  }
+  .header { text-align: center; border-bottom: 3px solid var(--primary); padding-bottom: 12px; margin-bottom: 16px; }
+  .header .kicker { font-size: 8.5pt; letter-spacing: 2.5px; color: var(--accent); font-weight: 700; text-transform: uppercase; }
+  .header h1 { color: var(--primary); font-size: 21pt; margin: 6px 0 4px; }
+  .header .subtitle { color: var(--accent); font-size: 11pt; font-weight: 600; }
+  .doc-meta {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px 18px;
+    background: var(--light); padding: 11px 14px; border-radius: 6px;
+    margin-bottom: 14px; font-size: 9.5pt;
+  }
+  .doc-meta strong { color: var(--primary); display: block; font-size: 7.5pt; text-transform: uppercase; letter-spacing: .6px; }
+  .rule {
+    background: #eef3f8; border-left: 4px solid var(--primary); padding: 9px 13px;
+    font-size: 9.5pt; margin: 0 0 16px; border-radius: 0 4px 4px 0; font-weight: 600;
+  }
+  h2 {
+    color: var(--primary); font-size: 13pt; border-bottom: 2px solid var(--primary);
+    padding-bottom: 4px; margin: 20px 0 8px;
+  }
+  h3 { color: var(--accent); font-size: 10.5pt; margin: 14px 0 5px; }
+  ul { margin: 4px 0 12px 0; list-style: none; font-size: 9.5pt; }
+  li { padding: 3px 0 3px 26px; position: relative; border-bottom: 1px dotted var(--border); }
+  li::before {
+    content: "\2610"; position: absolute; left: 2px; top: 2px;
+    font-size: 11pt; color: var(--primary); line-height: 1.3;
+  }
+  li.done::before { content: "\2611"; color: var(--success); }
+  li.done { color: #6b7a86; }
+  li .owner { color: var(--accent); font-weight: 600; }
+  li .task { font-weight: 600; }
+  li.sub { padding-left: 44px; font-size: 9pt; }
+  li.sub::before { left: 20px; font-size: 10pt; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0 14px; font-size: 9.5pt; }
+  th { background: var(--primary); color: #fff; padding: 6px 9px; text-align: left; font-weight: 600; }
+  td { padding: 6px 9px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:nth-child(even) td { background: var(--light); }
+  .score { text-align: center; font-weight: 700; }
+  .s-high { color: var(--accent); }
+  .s-med { color: var(--warn); }
+  .note { font-size: 8.5pt; color: #5a6672; margin: 0 0 14px; font-style: italic; }
+  .warnbox {
+    background: #fdf3e7; border-left: 4px solid var(--warn); padding: 9px 13px;
+    font-size: 9.5pt; margin: 8px 0 14px; border-radius: 0 4px 4px 0;
+  }
+  .footer {
+    margin-top: 22px; padding-top: 10px; border-top: 2px solid var(--primary);
+    font-size: 8pt; color: #666; text-align: center;
+  }
+  .footer .sig { display: flex; justify-content: space-between; margin-top: 14px; font-size: 8.5pt; }
+  .footer .sig div { width: 31%; }
+  .footer .sig-line { border-bottom: 1px solid #666; height: 26px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="kicker">SSRover Sdn Bhd &middot; Internal</div>
+  <h1>ROV Yard Relocation — Team To-Do Checklist</h1>
+  <div class="subtitle">KM Yard, Kota Masai &rarr; Masjid Tanah &middot; Thursday, 22 October 2026</div>
+</div>
+
+<div class="doc-meta">
+  <div><strong>Date</strong>22 October 2026</div>
+  <div><strong>Day / week</strong>Day 4 of 8 &middot; Week 1</div>
+  <div><strong>Plan reference</strong>MOV-2026-001</div>
+  <div><strong>Overall status</strong>&#9888; Sorting started &mdash; package tagging not started</div>
+  <div><strong>Due tomorrow</strong>2 tasks &mdash; 23 Oct</div>
+  <div><strong>Distribution</strong>All internal leads</div>
+</div>
+
+<div class="rule">Rule of the week: sort first, then tag the packages (5S 1S &rarr; 2S). Nothing moves without a package tag and a contents list.</div>
+
+<h2>1. Due by 22 October — hard deadlines</h2>
+<ul>
+  <li><span class="task">1.2</span> Inventory count, 5S sort &amp; condition report &mdash; <span class="owner">Hammam</span></li>
+  <li><span class="task">1.3</span> Update Asset Register with current locations &amp; conditions &mdash; <span class="owner">Hammam</span></li>
+  <li><span class="task">1.4</span> Identify items to move vs. items to remain &mdash; <span class="owner">Bashirun &amp; Ihsan</span></li>
+  <li>Complete physical verification of all zones &mdash; <span class="owner">Hammam &amp; Ihsan</span></li>
+</ul>
+
+<h2>2. Week 1 close-out — by Friday 23 October</h2>
+<ul>
+  <li>Draft new yard layout concept &mdash; <span class="owner">Operations Lead</span></li>
+  <li>Authority contact list started (MPPG, MPMT, JPJ, insurance, Bomba, DOE) &mdash; <span class="owner">PMO Lead</span></li>
+  <li>Vendor shortlist drafted &mdash; heavy haulage, movers, crane, security &mdash; <span class="owner">PMO Lead</span></li>
+  <li>Roofed yard sort &mdash; priority: copper cables, tools &mdash; <span class="owner">Inventory team</span></li>
+  <li>Compliance and tenancy review &mdash; <span class="owner">Admin / HSE</span></li>
+  <li><span class="task">1.5</span> Prepare packing &amp; handling requirements list &mdash; <span class="owner">Ihsan</span></li>
+  <li><span class="task">1.6</span> Review move plan with Anizam (Turcomp) &mdash; <span class="owner">Bashirun</span></li>
+  <li>Kick-off meeting with all internal leads &mdash; <span class="owner">PMO Lead</span></li>
+  <li>Meeting minutes circulated &mdash; <span class="owner">PMO Lead</span></li>
+</ul>
+
+<h2>3. Stage 1 exit checklist</h2>
+<ul>
+  <li class="done">Project folder structure created and shared</li>
+  <li class="done">Communication channels live (WhatsApp group + email thread)</li>
+  <li>Full photo / video walkthrough of all zones complete</li>
+  <li>New yard layout concept drafted and circulated</li>
+  <li>Authority contact list started</li>
+  <li>Vendor shortlist drafted (heavy haulage, movers, crane, security)</li>
+  <li class="done">Kick-off briefing held &mdash; 21 Oct, whiteboard record</li>
+  <li>Meeting minutes circulated</li>
+</ul>
+
+<h2>4. 5S sorting &amp; package tagging — Stage 2, days 1&ndash;10</h2>
+<p class="note">Sequence per zone: 1S Sort &rarr; 2S Set in order (pack + tag) &rarr; 3S Shine &rarr; 4S Standardise.</p>
+
+<h3>D1&ndash;D2 &middot; Warehouse</h3>
+<ul>
+  <li>Wanted / unwanted split agreed</li>
+  <li>Items packed into sealed packages (crate, bin, pallet, bundle, container)</li>
+  <li>Every package tagged <code>[ZONE]-[CLASS]-PKG-[SEQ]</code></li>
+  <li>Contents list fixed to every package &mdash; item, quantity, condition code, photo ref</li>
+  <li>Station cleaned and cleared</li>
+</ul>
+
+<h3>D3&ndash;D4 &middot; Roofed yard — priority: copper cables, tools</h3>
+<ul>
+  <li>Wanted / unwanted split agreed</li>
+  <li>Copper cables weighed and photographed per package</li>
+  <li>Packages tagged with contents lists</li>
+  <li>Station cleaned and cleared</li>
+</ul>
+
+<h3>D5&ndash;D6 &middot; Open yard — heavy items</h3>
+<ul>
+  <li>Wanted / unwanted split agreed</li>
+  <li>Dimensions and weights recorded per item</li>
+  <li>Disassembly requirements noted</li>
+  <li>Packages tagged with contents lists</li>
+</ul>
+
+<h3>D7 &middot; Office area — furniture, cabinets, IT</h3>
+<ul>
+  <li>Wanted / unwanted split agreed</li>
+  <li>IT equipment backed up before disconnect</li>
+  <li>Filing contents sorted: keep / archive / shred</li>
+  <li>Packages tagged with contents lists</li>
+</ul>
+
+<h3>D8&ndash;D9 &middot; Class A packages</h3>
+<ul>
+  <li>Tamper-evident seals applied</li>
+  <li>Item-level manifest placed inside each package</li>
+  <li>Photograph of each sealed package with the tag visible</li>
+  <li>Condition report completed</li>
+</ul>
+
+<h3>D10 &middot; Close-out</h3>
+<ul>
+  <li>Salvage / disposal list compiled</li>
+  <li>Submitted for approval &mdash; technical owner + Finance</li>
+</ul>
+
+<h2>5. Stage 2 quality gates</h2>
+<ul>
+  <li>Every package has a tag in the <code>[ZONE]-[CLASS]-PKG-[SEQ]</code> format</li>
+  <li>Every package has a contents list fixed to it</li>
+  <li>Every item is recorded in the inventory against a package tag</li>
+  <li>Every package has a class (A/B/C/D)</li>
+  <li>Every Class A package is sealed and photographed</li>
+  <li>Inventory spreadsheet complete and backed up</li>
+  <li>Salvage list reviewed and approved by Operations Lead</li>
+</ul>
+
+<h2>6. Decisions needed — who and by when</h2>
+<table>
+  <thead><tr><th style="width:46%">Decision</th><th style="width:28%">Owner</th><th>By when</th></tr></thead>
+  <tbody>
+    <tr><td>Package tag format and who applies the tags</td><td>Inventory Lead</td><td>Before package tagging starts</td></tr>
+    <tr><td>Confirmation on items held aside as "not sure"</td><td>Management / PM</td><td>This week</td></tr>
+    <tr><td>Cabinet disposition</td><td>Operations Lead</td><td>This week</td></tr>
+    <tr><td>OAG write-off items &mdash; approval authority</td><td>Finance</td><td>Week 2</td></tr>
+    <tr><td>Forklift &mdash; rent or use existing, and when</td><td>Operations Lead</td><td>Week 2</td></tr>
+    <tr><td>Dismantling / lifting vendor and 3 quotes</td><td>PMO / Procurement</td><td>End of Week 2</td></tr>
+    <tr><td>Office furniture sale route and scrap collector</td><td>Operations Lead</td><td>Week 3</td></tr>
+  </tbody>
+</table>
+
+<h2>7. Risks to action this week</h2>
+<table>
+  <thead><tr><th style="width:12%">Risk</th><th style="width:8%">Score</th><th>Action this week</th><th style="width:18%">Owner</th></tr></thead>
+  <tbody>
+    <tr><td>R01 Theft / loss of Class A items in transit</td><td class="score s-high">20</td><td>Finalise security escort contract, confirm sealed crate protocol</td><td>Security Lead</td></tr>
+    <tr><td>R06 Copper cable theft at old yard</td><td class="score s-high">16</td><td>Increase old yard security from Week 3, move Class A first</td><td>Security Lead</td></tr>
+    <tr><td>R02 Damage to heavy items during lifting</td><td class="score s-med">12</td><td>Require lift plan from contractor, pre-lift inspection checklist</td><td>Rigging Supervisor</td></tr>
+    <tr><td>R03 Authority delays (JPJ, MPMT, MPPG)</td><td class="score s-med">12</td><td>Submit applications early, follow up weekly</td><td>PMO Lead</td></tr>
+    <tr><td>R04 New yard not ready when items arrive</td><td class="score s-med">12</td><td>Layout work starts Week 3, weekly readiness check</td><td>Operations Lead</td></tr>
+    <tr><td>R21 Package contents do not match the contents list</td><td class="score s-med">12</td><td>Sign contents lists at pack and at receipt, random Class A verification</td><td>Inventory Lead</td></tr>
+  </tbody>
+</table>
+
+<h2>8. Daily routine</h2>
+<ul>
+  <li>08:00 stand-up, 15 min &mdash; all internal leads</li>
+  <li>Photograph each sorting station before and after work</li>
+  <li>Update the daily progress report by end of day</li>
+  <li>Post blockers to the WhatsApp group the same day</li>
+  <li>Escalate anything unresolved within 24 hours</li>
+</ul>
+
+<h2>9. Do not start</h2>
+<div class="warnbox">
+  <ul>
+    <li>Do <strong>not</strong> tag loose items before the wanted / unwanted split is agreed (ADR-002)</li>
+    <li>Do <strong>not</strong> dispose of anything without technical-owner + Finance approval (R20)</li>
+    <li>Do <strong>not</strong> move anything without a package tag and contents list</li>
+    <li>Do <strong>not</strong> book vendors without 3 quotes each</li>
+    <li>Do <strong>not</strong> start new-yard works before the lease is signed</li>
+  </ul>
+</div>
+
+<h2>10. Already done — 21 October</h2>
+<ul>
+  <li class="done">Briefing held &mdash; priorities and next-round list agreed</li>
+  <li class="done">Technical area sorting started</li>
+  <li class="done">Engineering bay sorting started</li>
+  <li class="done">Items categorised by estimated value and condition</li>
+  <li class="done">5 site photos taken and logged</li>
+</ul>
+
+<div class="footer">
+  <div class="sig">
+    <div><div class="sig-line"></div>Prepared by &mdash; Relocation Lead</div>
+    <div><div class="sig-line"></div>Reviewed by &mdash; PMO Lead</div>
+    <div><div class="sig-line"></div>Date</div>
+  </div>
+  <p style="margin-top:12px;">Source: <code>13_Deliverables/Team_Todo_Checklist.md</code> &middot; SSRover Sdn Bhd internal &mdash; not for external distribution.</p>
+</div>
+
+</body>
+</html>

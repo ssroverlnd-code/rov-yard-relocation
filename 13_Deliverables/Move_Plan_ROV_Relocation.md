@@ -11,8 +11,9 @@ updated: 2026-10-19
 ---
 
 **Document No:** MOV-2026-001  
-**Version:** 1.0 (Draft)  
+**Version:** 1.1  
 **Date:** 2026-10-19  
+**Amended:** 2026-10-22 — tagging changed from item level to **package level**, applied after sorting (5S)  
 **Prepared by:** Bashirun Che (bashirun.che@ssrover.com)  
 **Business Unit:** Under Water Services (UWS) — SS Rover × Turcomp  
 **Status:** Draft — Pending Review  
@@ -62,13 +63,15 @@ This document outlines the plan for relocating the ROV (Remotely Operated Vehicl
 
 ## 4. Relocation Phases
 
+**Sorting & tagging standard (5S):** items are **sorted first, then packed and tagged at package level** — nothing moves without a package tag (`[ZONE]-[CLASS]-PKG-[SEQ]`) and a contents list fixed to the package. Sequence: **Sort → Set in order → Shine → Standardise → Sustain**. Tagging loose items before the wanted / unwanted decision wastes tags on items that are then disposed of.
+
 ### Phase 1: Planning & Verification (19 – 23 Oct 2026)
 
 | # | Task | Owner | Deadline |
 |---|------|-------|----------|
 | 1.1 | Physical asset verification at Kota Masai Yard | Bashirun, Hammam, Ihsan | 21 Oct |
 | 1.2 | Update Asset Register with current locations & conditions | Bashirun | 22 Oct |
-| 1.3 | Inventory count & condition report | Hammam & Ihsan | 22 Oct |
+| 1.3 | Inventory count, 5S sort & condition report | Hammam & Ihsan | 22 Oct |
 | 1.4 | Identify items to move vs. items to remain | Bashirun | 22 Oct |
 | 1.5 | Prepare packing & handling requirements list | Bashirun | 23 Oct |
 | 1.6 | Review move plan with Anizam (Turcomp) | Bashirun | 23 Oct |
@@ -78,7 +81,7 @@ This document outlines the plan for relocating the ROV (Remotely Operated Vehicl
 | # | Task | Owner | Deadline |
 |---|------|-------|----------|
 | 2.1 | Arrange transport (heavy lift / low-loader as needed) | Bashirun / Wahyudin | 26 Oct |
-| 2.2 | Pack & label all items per inventory list | Hammam & Ihsan | 27 Oct |
+| 2.2 | Pack & tag packages per inventory list — tag at package level, contents list fixed to each package | Hammam & Ihsan | 27 Oct |
 | 2.3 | Prepare Pengkalan Balak Yard to receive items | Turcomp (Wan Kamarudin) | 28 Oct |
 | 2.4 | HSE risk assessment for relocation | Bashirun | 26 Oct |
 | 2.5 | Submit final plan to Nik Hazlan for endorsement | Bashirun | 28 Oct |
@@ -98,7 +101,7 @@ This document outlines the plan for relocating the ROV (Remotely Operated Vehicl
 | # | Task | Owner | Deadline |
 |---|------|-------|----------|
 | 4.1 | Post-move inventory reconciliation | Bashirun + Hammam | 4 Nov |
-| 4.2 | Asset tag verification at new location | Bashirun | 5 Nov |
+| 4.2 | Package tag & contents-list verification at new location | Bashirun | 5 Nov |
 | 4.3 | Damage / loss report (if any) | Bashirun | 5 Nov |
 | 4.4 | Update Asset Register with new locations | Bashirun | 6 Nov |
 | 4.5 | Handover sign-off to Turcomp | Bashirun + Nik Hazlan | 7 Nov |
@@ -153,4 +156,5 @@ This document outlines the plan for relocating the ROV (Remotely Operated Vehicl
 ---
 
 *Document prepared by Hermes Agent for Bashirun Che — 2026-10-19*  
+*Amended 2026-10-22 — tagging moved from item level to package level, applied after sorting (5S: Sort → Set in order).*  
 *This is a draft pending review and endorsement.*

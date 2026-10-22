@@ -49,7 +49,7 @@ Relocation of the ROV yard from **Pasir Gudang, Johor** to **Masjid Tanah, Melak
 ├── 02_Stage_Details/           # 10-stage detail sheets with checklists
 │   └── stage_details.md
 │
-├── 03_Inventory/               # A/B/C/D classification guide, tagging standard
+├── 03_Inventory/               # A/B/C/D classification guide, 5S + package tagging standard
 │   └── inventory_classification.md
 │
 ├── 04_Stakeholders/            # Internal teams, vendors, authorities, escalation
@@ -74,7 +74,8 @@ Relocation of the ROV yard from **Pasir Gudang, Johor** to **Masjid Tanah, Melak
 │
 ├── 10_ADR/                     # Architecture Decision Records
 │   ├── README.md
-│   └── ADR-001_IMCA_Relocation.md
+│   ├── ADR-001_IMCA_Relocation.md
+│   └── ADR-002_Package_Tagging.md
 │
 ├── 11_Costing/                 # Full resource & cost tables — RM 115,885 revised
 │   ├── Plan_3_Hybrid_Costing_Report.md
@@ -85,9 +86,11 @@ Relocation of the ROV yard from **Pasir Gudang, Johor** to **Masjid Tanah, Melak
 │   ├── contacts.md
 │   └── contacts.json
 │
-├── 13_Deliverables/            # Issued documents — move plan (md + print-ready html)
+├── 13_Deliverables/            # Issued documents — move plan + daily progress reports + team checklist
 │   ├── Move_Plan_ROV_Relocation.md
-│   └── Move_Plan_ROV_Relocation_Printable.html
+│   ├── Move_Plan_ROV_Relocation_Printable.html
+│   ├── Daily_Progress_Report_21.10.2026.html
+│   └── Team_Todo_Checklist.md / .html
 │
 ├── 14_Data/                    # Cleaned dataset, outlier & data-quality reports
 │   ├── dataset_raw.csv
@@ -97,11 +100,12 @@ Relocation of the ROV yard from **Pasir Gudang, Johor** to **Masjid Tanah, Melak
 │   ├── OUTLIER_REPORT.md
 │   └── DATA_QUALITY_REPORT.md
 │
-├── Photos/                     # Daily photo evidence + daily reports
+├── Photos/                     # Daily photo evidence + daily progress reports
 │   ├── README.md               # Photo log index & convention
-│   ├── DAILY_REPORT_TEMPLATE.md
-│   └── 21.10.2026/             # One folder per day — photos + daily report
-│       ├── 21.10.2026 daily report.md
+│   ├── DAILY_PROGRESS_REPORT_TEMPLATE.md
+│   └── 21.10.2026/             # One folder per day — photos + progress report
+│       ├── 21.10.2026 daily progress report.md
+│       ├── 21.10.2026 activity summary.md
 │       └── *.jpeg              # site photos (local only, not tracked)
 │
 └── 99_Archive/                 # Superseded plans, drafts, IDEA notes
@@ -128,7 +132,9 @@ Relocation of the ROV yard from **Pasir Gudang, Johor** to **Masjid Tanah, Melak
 | Cleaned cost dataset (72 records) | `14_Data/dataset_cleaned.csv` | ✅ Complete |
 | Outlier removal report | `14_Data/OUTLIER_REPORT.md` | ✅ Complete |
 | Data quality report | `14_Data/DATA_QUALITY_REPORT.md` | ✅ Complete |
-| Daily photo reports | `Photos/<date>/<date> daily report.md` | 🟢 Started — 21.10.2026 |
+| Daily progress reports | `Photos/<date>/<date> daily progress report.md` | 🟢 Started — 21.10.2026 |
+| Daily progress report (circulation) | `13_Deliverables/Daily_Progress_Report_<date>.html` | 🟢 Started — 21.10.2026 |
+| Team to-do checklist | `13_Deliverables/Team_Todo_Checklist.md` / `.html` | 🟢 Started — 22.10.2026 |
 | IMCA ADR-001 | `10_ADR/ADR-001_IMCA_Relocation.md` | 🔴 Open — blocks training equipment moves |
 
 ---
@@ -181,4 +187,10 @@ Internal project documentation — SSRover Sdn Bhd. Not for public distribution.
 
 *Last updated: 2026-10-19 — reorganised: `13_Deliverables/` and `14_Data/` added; `12_Email_Correspondence/` now holds correspondence only; all 6 files missing YAML frontmatter fixed; canvas and links re-verified at 0 broken.*
 
-*2026-10-22 — `Photos/` added: daily photo evidence + daily reports, with `Photos/DAILY_REPORT_TEMPLATE.md` for the recurring routine; `.gitignore` updated so images stay local while the report `.md` files are tracked.*
+*2026-10-22 — `Photos/` added: daily photo evidence + daily progress reports, with `Photos/DAILY_PROGRESS_REPORT_TEMPLATE.md` for the recurring routine; `.gitignore` updated so images stay local while the report `.md` files are tracked.*
+
+*2026-10-22 — report condensed to a daily progress report; circulation copy rendered as printable HTML with the photos embedded (`13_Deliverables/Daily_Progress_Report_21.10.2026.html`).*
+
+*2026-10-22 — tagging amended from item level to **package level**, applied after sorting (5S: Sort → Set in order). New `10_ADR/ADR-002_Package_Tagging.md`; master plan, stage details, inventory guide, risk register (R21) and the issued move plan (v1.1 / printable v1.2) updated.*
+
+*2026-10-22 — team to-do checklist added (`13_Deliverables/Team_Todo_Checklist.md` + printable HTML): 22 Oct deadlines, Week 1 close-out, 5S package-tagging sequence D1–D10, decisions, risks and daily routine.*
