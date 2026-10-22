@@ -194,3 +194,5 @@ Internal project documentation — SSRover Sdn Bhd. Not for public distribution.
 *2026-10-22 — tagging amended from item level to **package level**, applied after sorting (5S: Sort → Set in order). New `10_ADR/ADR-002_Package_Tagging.md`; master plan, stage details, inventory guide, risk register (R21) and the issued move plan (v1.1 / printable v1.2) updated.*
 
 *2026-10-22 — team to-do checklist added (`13_Deliverables/Team_Todo_Checklist.md` + printable HTML): 22 Oct deadlines, Week 1 close-out, 5S package-tagging sequence D1–D10, decisions, risks and daily routine.*
+
+*2026-10-22 — 22 Oct raw notes (`Photos/22.10.2026/22.10.2026 activity summary.md`, 15 photos) imported from the Drive copy into the repo with frontmatter and a canvas node; the day's progress report is still pending.*

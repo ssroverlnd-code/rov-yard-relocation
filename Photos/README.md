@@ -31,6 +31,7 @@ Photo evidence for the ROV yard relocation, one folder per day. Each day's folde
 | Date | Report | Photos | Circulation copy | Status |
 |------|--------|--------|------------------|--------|
 | 21.10.2026 | [[Photos/21.10.2026/21.10.2026 daily progress report]] | 5 | `Daily_Progress_Report_21.10.2026.html` | 🟡 Sorting started — tagging not started |
+| 22.10.2026 | [[Photos/22.10.2026/22.10.2026 activity summary]] (raw notes — report pending) | 15 | — | 🟡 Walkthrough of open/roofed yard + rack A/B sorted |
 
 ---
 
