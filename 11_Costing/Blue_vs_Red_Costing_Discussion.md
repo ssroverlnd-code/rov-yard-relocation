@@ -2,7 +2,7 @@
 title: Plan 3 (Hybrid) — Blue vs Red Team Costing Discussion Record
 type: discussion
 tags: [rov, costing, blue-team, red-team, discussion, hybrid]
-updated: 2026-10-19
+updated: 2026-10-22
 ---
 
 # Plan 3 (Hybrid) — Blue vs Red Team Costing Discussion Record

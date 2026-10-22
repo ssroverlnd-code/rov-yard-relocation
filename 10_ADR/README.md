@@ -2,7 +2,7 @@
 title: Architecture Decision Records — Index
 type: index
 tags: [rov, relocation, adr, decisions]
-updated: 2026-10-19
+updated: 2026-10-22
 ---
 
 # Architecture Decision Records

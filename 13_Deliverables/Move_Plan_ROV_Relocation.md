@@ -2,7 +2,7 @@
 title: ROV Unit Relocation Move Plan
 type: deliverable
 tags: [rov, relocation, move-plan, kota-masai, masjid-tanah]
-updated: 2026-10-19
+updated: 2026-10-22
 ---
 
 # ROV Unit Relocation Move Plan

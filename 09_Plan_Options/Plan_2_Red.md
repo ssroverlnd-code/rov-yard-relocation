@@ -2,7 +2,7 @@
 title: Plan 2 — Red Team (Operational Execution)
 type: plan-option
 tags: [rov, plan, red-team, execution]
-updated: 2026-10-19
+updated: 2026-10-22
 ---
 
 # Plan 2 — Red Team: Operational Execution Plan

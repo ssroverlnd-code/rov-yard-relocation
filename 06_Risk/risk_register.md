@@ -2,7 +2,7 @@
 title: Risk Register
 type: risk
 tags: [rov, risk, register, mitigation]
-updated: 2026-10-19
+updated: 2026-10-22
 ---
 
 # Risk Register — ROV Yard Relocation
@@ -43,6 +43,7 @@ updated: 2026-10-19
 | R19 | **Damage to ROV electronics during packing or transit** | 3 | 4 | **12** | Anti-static packaging, condition records before/after, insured transport, technical supervision | Technical / Yard Supervisor |
 | R20 | **Wrongful disposal of serviceable items** | 3 | 3 | **9** | Technical owner + Finance written approval before any disposal; condition confirmation required | Finance & Administration |
 | R21 | **Package contents do not match the contents list** | 3 | 4 | **12** | Contents list signed at pack and again at receipt; random verification of Class A packages; sealed packages photographed | Inventory Lead |
+| R22 | **Limited manpower against the planned sorting and packing volume** | 4 | 3 | **12** | Optimise by package value — containers and ROV systems first; stagger rack C & D sorting; add temporary labour or borrow resource from other teams; re-baseline the D1–D10 tagging sequence; review targets at the daily toolbox talk | PMO Lead / Operations Lead |
 
 ---
 
@@ -56,7 +57,7 @@ updated: 2026-10-19
 | 4 | R03 — Authority delays (JPJ, MPMT, MPPG) | 12 | Submit applications early (Week 2–3), follow up weekly |
 | 5 | R04 — New yard not ready when items arrive | 12 | Layout work starts Week 3, weekly readiness check, hold move if cage not ready |
 
-> Also scored 12: **R11** (new yard landlord delays handover), **R16** (incomplete inventory), **R19** (damage to ROV electronics) and **R21** (package contents do not match the contents list).
+> Also scored 12: **R11** (new yard landlord delays handover), **R16** (incomplete inventory), **R19** (damage to ROV electronics) , **R21** (package contents do not match the contents list) and **R22** (limited manpower against the planned sorting volume — raised 22.10.2026).
 
 ---
 

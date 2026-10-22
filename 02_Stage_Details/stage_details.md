@@ -2,7 +2,7 @@
 title: Stage Detail Sheets
 type: stages
 tags: [rov, relocation, stages, checklists]
-updated: 2026-10-19
+updated: 2026-10-22
 ---
 
 # Stage 1 Detail Sheet — Foundation & Planning (Week 1)

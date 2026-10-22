@@ -2,7 +2,7 @@
 title: ROV Yard Relocation — MOC
 type: MOC
 tags: [rov, relocation, pasir-gudang, masjid-tanah, yard]
-updated: 2026-10-19
+updated: 2026-10-22
 ---
 
 # ROV Yard Relocation — Map of Content
@@ -23,21 +23,24 @@ updated: 2026-10-19
 | [[inventory_classification.md\|03 — Inventory]] | A/B/C/D classification guide, tagging standard |
 | [[stakeholder_register.md\|04 — Stakeholders]] | Internal teams, vendors, authorities, escalation |
 | [[gantt_timeline.md\|05 — Timeline]] | 8-week Gantt, milestones, critical path |
-| [[risk_register.md\|06 — Risk]] | 20 scored risks, mitigations, incident response |
+| [[risk_register.md\|06 — Risk]] | 22 scored risks, mitigations, incident response |
 | [[communication_plan.md\|07 — Communication]] | Channels, meetings, reporting templates |
 | [[proposed_yard_layout.md\|08 — Layout]] | 5-zone yard layout, security infrastructure |
 | [[Plan_1_Blue.md\|09 — Plan Options]] | Plan 1 — Blue Team (formal engineering transfer) |
 | [[Plan_2_Red.md\|09 — Plan Options]] | Plan 2 — Red Team (operational execution) |
 | [[Plan_3_Hybrid.md\|09 — Plan Options]] | Plan 3 — Hybrid (**adopted**) |
-| [[ADR-001_IMCA_Relocation.md\|10 — ADR]] | IMCA implications — CRITICAL, pending · [[ADR-002_Package_Tagging.md\|ADR-002]] package-level tagging (5S) — accepted |
+| [[ADR-001_IMCA_Relocation.md\|10 — ADR]] | IMCA implications — CRITICAL, pending |
+| [[ADR-002_Package_Tagging.md\|10 — ADR]] | Package-level tagging — sort first, then tag (5S) — accepted |
 | [[Plan_3_Hybrid_Costing_Report.md\|11 — Costing]] | Full resource & cost table — RM 115,885 revised |
 | [[Blue_vs_Red_Costing_Discussion.md\|11 — Costing]] | Blue vs Red team costing discussion & resolution |
 | [[INDEX.md\|12 — Correspondence]] | Relocation email index & contacts (21 contacts, 4 orgs) |
-| [[Move_Plan_ROV_Relocation.md\|13 — Deliverables]] | ROV relocation move plan (print-ready HTML version alongside) + daily progress reports |
+| [[Move_Plan_ROV_Relocation.md\|13 — Deliverables]] | ROV relocation move plan (print-ready HTML version alongside) |
+| [[Team_Todo_Checklist.md\|13 — Deliverables]] | Team to-do checklist — 22 Oct deadlines, Week 1 close-out, D1–D10 tagging sequence (printable HTML alongside) |
+| Daily progress reports | `13_Deliverables/Daily_Progress_Report_21.10.2026.html` · `…22.10.2026.html` — circulation copies with photos embedded |
 | [[dataset_cleaned.csv\|14 — Data]] | Cleaned cost dataset — 72 records, reconciles to RM 115,885 |
 | [[OUTLIER_REPORT.md\|14 — Data]] | IQR / z-score outlier analysis |
 | [[DATA_QUALITY_REPORT.md\|14 — Data]] | 14 data-quality defects, severity & status |
-| [[README.md\|Photos]] | Daily photo evidence + daily progress reports (images local only) |
+| [[README.md\|Photos]] | Daily photo evidence + progress reports — 21.10 and 22.10.2026 (images local only, not tracked) |
 | [[IDEA.md\|99 — Archive]] | Project purpose & success criteria |
 | [[initial_plan_superseded.md\|99 — Archive]] | Superseded initial plan |
 | [[Moving_Plan_3_Initial_Draft.md\|99 — Archive]] | Superseded costing draft (RM 48,250) |
@@ -60,7 +63,11 @@ updated: 2026-10-19
 | Schedule conflict — move plan ends **7 Nov**, master plan **14 Dec 2026** | 🔴 OPEN — needs decision | PM | HIGH |
 | 3 indexed emails missing from disk | 🔴 OPEN — re-export from Outlook | Bashirun | MEDIUM |
 | Contact identity matches (3 unconfirmed) | 🟡 Pending confirmation | PMO | MEDIUM |
-| Package tagging not started while sorting is underway | 🔴 OPEN — R08/R16/R20/R21 (see `Photos/21.10.2026/21.10.2026 daily progress report.md`) | Inventory Lead | HIGH |
+| Package tagging not started while sorting is underway | 🔴 OPEN — R08/R16/R20/R21 (see `Photos/22.10.2026/22.10.2026 daily progress report.md`) | Inventory Lead | HIGH |
+| Limited manpower vs planned sorting volume — potential delay | 🔴 OPEN — **R22** (registered 22.10) | PMO / Operations | HIGH |
+| Mixed-up box contents at the racks — usable vs faulty not established | 🟡 OPEN — R08/R20 | Inventory Lead | MEDIUM |
+| Dimensions and weights survey not yet recorded (22.10 walkthrough) | 🟡 OPEN — blocks the logistics and new-yard space estimate | Inventory Lead | MEDIUM |
+| First moving package (containers + ROV systems) packing list | 🟡 Not started | Inventory Lead | HIGH |
 | Management confirmation on "not sure" items held aside | 🟡 OPEN | Management / PM | HIGH |
 | OAG write-off items — approval authority | 🟡 OPEN | Finance | MEDIUM |
 | Dismantling / lifting outsource — vendor + 3 quotes | 🟡 OPEN — R02/R14 | PMO Lead / Procurement | HIGH |
@@ -95,3 +102,5 @@ Open `Program_Map.canvas` in Obsidian for the visual knowledge graph.
 *2026-10-22 — `Photos` index row added; daily-report open items (tagging, held-aside confirmation, OAG write-off, dismantling vendor, forklift, cabinets) raised from the 21.10.2026 report.*
 
 *2026-10-22 — tagging amended from item level to **package level**, applied after sorting (5S). Recorded as [[ADR-002_Package_Tagging.md\|ADR-002]]; master plan, stage details, inventory guide, risk register (R21 added) and the issued move plan updated.*
+
+*2026-10-22 — 22.10.2026 daily progress report written from the day's raw notes and 15 site photos (tool sort complete, warehouse racks A & B cleared, yard walkthrough partial, package tagging still not started); **R22** (limited manpower) registered; ADR-002 split into its own index row.*

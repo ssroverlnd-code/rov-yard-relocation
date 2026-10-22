@@ -2,7 +2,7 @@
 title: ROV Yard Relocation — Repository README
 type: README
 tags: [rov, relocation, pasir-gudang, masjid-tanah, yard]
-updated: 2026-10-19
+updated: 2026-10-22
 ---
 
 # ROV Yard Relocation — Pasir Gudang → Masjid Tanah
@@ -58,7 +58,7 @@ Relocation of the ROV yard from **Pasir Gudang, Johor** to **Masjid Tanah, Melak
 ├── 05_Timeline/                # 8-week Gantt, milestones, critical path
 │   └── gantt_timeline.md
 │
-├── 06_Risk/                    # 20 scored risks, mitigations, incident response
+├── 06_Risk/                    # 22 scored risks, mitigations, incident response
 │   └── risk_register.md
 │
 ├── 07_Communication/           # Channels, meetings, reporting templates
@@ -93,20 +93,25 @@ Relocation of the ROV yard from **Pasir Gudang, Johor** to **Masjid Tanah, Melak
 │   └── Team_Todo_Checklist.md / .html
 │
 ├── 14_Data/                    # Cleaned dataset, outlier & data-quality reports
+│   ├── README.md               # House data conventions, headline results, open decisions
 │   ├── dataset_raw.csv
 │   ├── dataset_cleaned.csv
 │   ├── outliers_flagged.csv
 │   ├── analysis_results.json
 │   ├── OUTLIER_REPORT.md
-│   └── DATA_QUALITY_REPORT.md
+│   ├── DATA_QUALITY_REPORT.md
+│   └── scripts_*.py            # extract / outliers / vault gate (re-runnable checks)
 │
 ├── Photos/                     # Daily photo evidence + daily progress reports
 │   ├── README.md               # Photo log index & convention
 │   ├── DAILY_PROGRESS_REPORT_TEMPLATE.md
-│   └── 21.10.2026/             # One folder per day — photos + progress report
-│       ├── 21.10.2026 daily progress report.md
-│       ├── 21.10.2026 activity summary.md
-│       └── *.jpeg              # site photos (local only, not tracked)
+│   ├── 21.10.2026/             # One folder per day — photos + progress report
+│   │   ├── 21.10.2026 daily progress report.md
+│   │   ├── 21.10.2026 activity summary.md
+│   │   └── *.jpeg              # site photos (local only, not tracked)
+│   └── 22.10.2026/             # raw notes + 15 photos + progress report
+│       ├── 22.10.2026 daily progress report.md
+│       └── 22.10.2026 activity summary.md
 │
 └── 99_Archive/                 # Superseded plans, drafts, IDEA notes
     ├── IDEA.md
@@ -122,7 +127,7 @@ Relocation of the ROV yard from **Pasir Gudang, Johor** to **Masjid Tanah, Melak
 |-------------|------|--------|
 | Master Moving Plan | `01_Planning/master_moving_plan.md` | ✅ Complete |
 | 8-Week Gantt Timeline | `05_Timeline/gantt_timeline.md` | ✅ Complete |
-| Risk Register (20 risks) | `06_Risk/risk_register.md` | ✅ Complete |
+| Risk Register (22 risks) | `06_Risk/risk_register.md` | ✅ Complete |
 | Stakeholder Register | `04_Stakeholders/stakeholder_register.md` | ✅ Complete |
 | Inventory Classification | `03_Inventory/inventory_classification.md` | ✅ Complete |
 | Proposed Yard Layout | `08_Layout/proposed_yard_layout.md` | ✅ Complete |
@@ -132,8 +137,8 @@ Relocation of the ROV yard from **Pasir Gudang, Johor** to **Masjid Tanah, Melak
 | Cleaned cost dataset (72 records) | `14_Data/dataset_cleaned.csv` | ✅ Complete |
 | Outlier removal report | `14_Data/OUTLIER_REPORT.md` | ✅ Complete |
 | Data quality report | `14_Data/DATA_QUALITY_REPORT.md` | ✅ Complete |
-| Daily progress reports | `Photos/<date>/<date> daily progress report.md` | 🟢 Started — 21.10.2026 |
-| Daily progress report (circulation) | `13_Deliverables/Daily_Progress_Report_<date>.html` | 🟢 Started — 21.10.2026 |
+| Daily progress reports | `Photos/<date>/<date> daily progress report.md` | 🟢 21.10.2026 · 22.10.2026 |
+| Daily progress report (circulation) | `13_Deliverables/Daily_Progress_Report_<date>.html` | 🟢 21.10.2026 · 22.10.2026 |
 | Team to-do checklist | `13_Deliverables/Team_Todo_Checklist.md` / `.html` | 🟢 Started — 22.10.2026 |
 | IMCA ADR-001 | `10_ADR/ADR-001_IMCA_Relocation.md` | 🔴 Open — blocks training equipment moves |
 
@@ -149,6 +154,10 @@ Relocation of the ROV yard from **Pasir Gudang, Johor** to **Masjid Tanah, Melak
 | Vendor contracts | 🟡 Not started — 3 quotes per vendor required | Procurement | HIGH |
 | Authority applications (MPPG, MPMT, JPJ) | 🟡 Not started | PM | MEDIUM |
 | New yard lease signing | 🟡 Not started | PM | MEDIUM |
+| Package tagging not started while sorting is underway | 🔴 OPEN — R08/R16/R20/R21 | Inventory Lead | HIGH |
+| Limited manpower vs planned sorting volume (22.10) | 🟡 OPEN — potential delay · **R22** | PMO / Operations | HIGH |
+| Mixed-up box contents at racks — usable vs faulty unknown (22.10) | 🟡 OPEN | Inventory Lead | MEDIUM |
+| Management confirmation on "not sure" items held aside | 🟡 OPEN | Management / PM | HIGH |
 
 ---
 
@@ -196,3 +205,5 @@ Internal project documentation — SSRover Sdn Bhd. Not for public distribution.
 *2026-10-22 — team to-do checklist added (`13_Deliverables/Team_Todo_Checklist.md` + printable HTML): 22 Oct deadlines, Week 1 close-out, 5S package-tagging sequence D1–D10, decisions, risks and daily routine.*
 
 *2026-10-22 — 22 Oct raw notes (`Photos/22.10.2026/22.10.2026 activity summary.md`, 15 photos) imported from the Drive copy into the repo with frontmatter and a canvas node; the day's progress report is still pending.*
+
+*2026-10-22 — reorganisation pass: duplicate `Move_Plan_ROV_Relocation_Printable.html` removed from the repository root (the deliverable lives in `13_Deliverables/`); structure tree corrected (22.10.2026 day folder, `14_Data` scripts and index); `updated:` frontmatter corrected on 14 files still carrying 2026-10-19; R22 (limited manpower) registered; open items synced with the 22.10.2026 site notes.*

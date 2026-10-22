@@ -2,7 +2,7 @@
 title: Master Moving Plan
 type: plan
 tags: [rov, relocation, plan, master]
-updated: 2026-10-19
+updated: 2026-10-22
 ---
 
 # ROV Yard Relocation — Master Moving Plan

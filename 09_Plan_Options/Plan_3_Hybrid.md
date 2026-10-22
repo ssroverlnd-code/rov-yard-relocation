@@ -2,7 +2,7 @@
 title: Plan 3 — Hybrid (Governance + Execution)
 type: plan-option
 tags: [rov, plan, hybrid, recommended]
-updated: 2026-10-19
+updated: 2026-10-22
 ---
 
 # Plan 3 — Hybrid: Governance + Execution (Recommended)

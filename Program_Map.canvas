@@ -482,8 +482,26 @@
 			"id":"n38",
 			"type":"file",
 			"file":"Photos/22.10.2026/22.10.2026 activity summary.md",
+			"x":3000,
+			"y":2800,
+			"width":400,
+			"height":200
+		},
+		{
+			"id":"n39",
+			"type":"file",
+			"file":"Photos/22.10.2026/22.10.2026 daily progress report.md",
 			"x":2300,
 			"y":2800,
+			"width":400,
+			"height":200
+		},
+		{
+			"id":"n40",
+			"type":"file",
+			"file":"13_Deliverables/Daily_Progress_Report_22.10.2026.html",
+			"x":3000,
+			"y":1400,
 			"width":400,
 			"height":200
 		}
@@ -992,6 +1010,70 @@
 			"label":"22.10.2026",
 			"fromSide":"bottom",
 			"toSide":"top"
+		},
+		{
+			"id":"e64",
+			"fromNode":"n31",
+			"toNode":"n39",
+			"label":"22.10.2026 report",
+			"fromSide":"bottom",
+			"toSide":"top"
+		},
+		{
+			"id":"e65",
+			"fromNode":"n38",
+			"toNode":"n39",
+			"label":"raw source for",
+			"fromSide":"left",
+			"toSide":"right"
+		},
+		{
+			"id":"e66",
+			"fromNode":"n40",
+			"toNode":"n39",
+			"label":"circulation copy of",
+			"fromSide":"left",
+			"toSide":"right"
+		},
+		{
+			"id":"e67",
+			"fromNode":"n39",
+			"toNode":"n3",
+			"label":"maps to",
+			"fromSide":"left",
+			"toSide":"right"
+		},
+		{
+			"id":"e68",
+			"fromNode":"n39",
+			"toNode":"n5",
+			"label":"stage check",
+			"fromSide":"left",
+			"toSide":"right"
+		},
+		{
+			"id":"e69",
+			"fromNode":"n39",
+			"toNode":"n9",
+			"label":"risk refs",
+			"fromSide":"left",
+			"toSide":"right"
+		},
+		{
+			"id":"e70",
+			"fromNode":"n39",
+			"toNode":"n6",
+			"label":"inventory guide",
+			"fromSide":"left",
+			"toSide":"right"
+		},
+		{
+			"id":"e71",
+			"fromNode":"n39",
+			"toNode":"n23",
+			"label":"move plan status",
+			"fromSide":"left",
+			"toSide":"right"
 		}
 	]
 }

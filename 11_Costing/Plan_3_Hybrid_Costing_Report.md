@@ -2,7 +2,7 @@
 title: Plan 3 (Hybrid) — Resource & Costing Report
 type: costing
 tags: [rov, costing, plan-3, hybrid, relocation, budget]
-updated: 2026-10-19
+updated: 2026-10-22
 ---
 
 # Plan 3 — Hybrid: Resource & Costing Report
