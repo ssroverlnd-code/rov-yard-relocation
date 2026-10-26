@@ -140,6 +140,7 @@ Relocation of the ROV yard from **Pasir Gudang, Johor** to **Masjid Tanah, Melak
 | Daily progress reports | `Photos/<date>/<date> daily progress report.md` | 🟢 21.10.2026 · 22.10.2026 |
 | Daily progress report (circulation) | `13_Deliverables/Daily_Progress_Report_<date>.html` | 🟢 21.10.2026 · 22.10.2026 |
 | Team to-do checklist | `13_Deliverables/Team_Todo_Checklist_<date>.md` / `.html` | 🟢 22.10.2026 · 23.10.2026 |
+| Draft — IPEC validation renewal email | `13_Deliverables/Draft_IPEC_Validation_Renewal_Email.md` | 🟡 Draft saved to Outlook Drafts — not sent |
 | IMCA ADR-001 | `10_ADR/ADR-001_IMCA_Relocation.md` | 🔴 Open — blocks training equipment moves |
 
 ---
